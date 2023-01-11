@@ -34,7 +34,7 @@ twitter_username: UnderdogGeek
 github_username:  bmitra-msft
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
