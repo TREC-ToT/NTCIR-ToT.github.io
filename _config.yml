@@ -21,13 +21,10 @@
 title: TREC 2023 Tip-of-the-Tongue (ToT) Track
 email: bmitra@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification
-  task where the searcher has previously experienced or consumed the item
-  (e.g., a movie) but cannot recall a reliable identifier (i.e., "It's on the
-  tip of my tongue…"). Unlike traditional ad-hoc keyword-based search, these
-  information requests tend to be natural-language, verbose, and complex
-  containing a wide variety of search strategies such as multi-hop reasoning,
-  and frequently express uncertainty and suffer from false memories.
+  Tip of the tongue: The phenomenon of failing to retrieve
+  something from memory, combined with partial recall and
+  the feeling that retrieval is imminent.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trec-tot.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UnderdogGeek
