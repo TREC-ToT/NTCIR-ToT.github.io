@@ -9,6 +9,12 @@ layout: default
 
 The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task where the searcher has previously experienced or consumed the item (e.g., a movie) but cannot recall a reliable identifier (i.e., "It's on the tip of my tongue..."). Unlike traditional ad-hoc keyword-based search, these information requests tend to be natural-language, verbose, and complex containing a wide variety of search strategies such as multi-hop reasoning, and frequently express uncertainty and suffer from false memories.
 
+### Sample ToT Query
+
+<img src="img/example.png" style="height:158px">
+
+**Correct answer**: <a href="https://www.imdb.com/title/tt0058230/" target="_blank">The Incredible Mr. Limpet</a>
+
 ## Motivations and challenges
 
 **Beyond keyword search.** ToT queries are natural-language, verbose, and complex requiring a deeper understanding of language and contextual information.
@@ -16,12 +22,6 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
 **Handling inaccuracies.** Searchers in ToT states frequently express uncertainty and suffer from False memories.
 
 **Futuristic.** Novel task. Emergent search interfaces, such as conversational search, may make it easier to express such information needs in the near-future.
-
-### Sample ToT Query
-
-<img src="img/example.png" style="height:158px">
-
-**Correct answer**: <a href="https://www.imdb.com/title/tt0058230/" target="_blank">The Incredible Mr. Limpet</a>
 
 # Organizers
 
