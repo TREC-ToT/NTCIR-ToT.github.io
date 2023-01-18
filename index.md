@@ -68,6 +68,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <p>
         <a href="https://www.microsoft.com/en-us/research/people/bmitra/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@bmitra" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -84,6 +85,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <p>
         <a href="https://841.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@841io@sigmoid.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -100,6 +102,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <p>
         <a href="https://staff.fnwi.uva.nl/e.kanoulas/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ekanou" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@ekanou@mas.to" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
