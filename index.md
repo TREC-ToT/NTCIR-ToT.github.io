@@ -51,7 +51,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <br/>Amsterdam, The Netherlands
     <p>
         <a href="http://samarthbhargav.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/samarthbhargav" class="fa fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/samarthbhargav" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -67,7 +67,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <br/>Montreal, Canada
     <p>
         <a href="https://www.microsoft.com/en-us/research/people/bmitra/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fa fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -83,7 +83,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <br/>Montreal, Canada
     <p>
         <a href="https://841.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fa fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -99,7 +99,7 @@ The Tip-of-the-Tongue (ToT) Track focuses on the known-item identification task 
     <br/>Amsterdam, The Netherlands
     <p>
         <a href="https://staff.fnwi.uva.nl/e.kanoulas/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ekanou" class="fa fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ekanou" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
