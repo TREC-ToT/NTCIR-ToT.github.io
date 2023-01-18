@@ -9,7 +9,7 @@ layout: default
 
 ## Timelines (tentative)
 * April: Release corpus and training queries
-* June: Release test queries
+* July: Release test queries
 * Early August: Deadline for submitting runs
 
 ## Registration
