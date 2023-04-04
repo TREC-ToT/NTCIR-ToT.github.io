@@ -10,11 +10,11 @@ layout: default
 Have you ever tried re-finding a movie that you watched as a child but cannot remember its name? Perhaps you vaguely remember the plot or a few scenes from the movie.  You might also remember things about the context in which you watched the movie.  For example, you might remember that you watched the movie in the 1980s on television.  You also remember that the movie made you feel melancholy.  Unfortunately, none of the things you remember would enable you to re-find the movie using existing information retrieval (IR) tools.
 
 Tip-of-the-tongue (ToT) known-item retrieval is defined as "an item identification task in which the searcher has previously experienced an item but cannot recall a reliable identifier" [<a href="https://dl.acm.org/doi/abs/10.1145/3406522.3446021" target="_blank">1</a>] (i.e., "It's on the tip of my tongue...").  Current IR systems are not well-equipped to address ToT information needs.  As evidence, a wide range of community Q&A sites have emerged to help people resolve their ToT information needs with the help of other people—e.g.,
-- [https://www.reddit.com/r/tipofmytongue](https://www.reddit.com/r/tipofmytongue)
-- [https://irememberthismovie.com](https://irememberthismovie.com)
-- [https://www.watzatsong.com/en](https://www.watzatsong.com/en)
-- [https://www.goodreads.com/group/show/185-what-s-the-name-of-that-book](https://www.goodreads.com/group/show/185-what-s-the-name-of-that-book)
-- [https://scifi.stackexchange.com/questions/tagged/story-identification](https://scifi.stackexchange.com/questions/tagged/story-identification)
+- <a href="https://www.reddit.com/r/tipofmytongue" target="_blank">https://www.reddit.com/r/tipofmytongue</a>
+- <a href="https://irememberthismovie.com" target="_blank">https://irememberthismovie.com</a>
+- <a href="https://www.watzatsong.com/en" target="_blank">https://www.watzatsong.com/en</a>
+- <a href="https://www.goodreads.com/group/show/185-what-s-the-name-of-that-book" target="_blank">https://www.goodreads.com/group/show/185-what-s-the-name-of-that-book</a>
+- <a href="https://scifi.stackexchange.com/questions/tagged/story-identification" target="_blank">https://scifi.stackexchange.com/questions/tagged/story-identification</a>
 
 Presumably, people who post to these sites either failed to resolve their needs using existing IR tools or did not even try.  
 
