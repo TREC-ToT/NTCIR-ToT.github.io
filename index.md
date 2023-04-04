@@ -9,7 +9,7 @@ layout: default
 
 Have you ever tried re-finding a movie that you watched as a child but cannot remember its name? Perhaps you vaguely remember the plot or a few scenes from the movie.  You might also remember things about the context in which you watched the movie.  For example, you might remember that you watched the movie in the 1980s on television.  You also remember that the movie made you feel melancholy.  Unfortunately, none of the things you remember would enable you to re-find the movie using existing information retrieval (IR) tools.
 
-Tip-of-the-tongue (ToT) known-item retrieval is defined as "an item identification task in which the searcher has previously experienced an item but cannot recall a reliable identifier" (i.e., "It's on the tip of my tongue...").  Current IR systems are not well-equipped to address ToT information needs.  As evidence, a wide range of community Q&A sites have emerged to help people resolve their ToT information needs with the help of other people—e.g.,
+Tip-of-the-tongue (ToT) known-item retrieval is defined as "an item identification task in which the searcher has previously experienced an item but cannot recall a reliable identifier" [<a href="https://dl.acm.org/doi/abs/10.1145/3406522.3446021" target="_blank">1</a>] (i.e., "It's on the tip of my tongue...").  Current IR systems are not well-equipped to address ToT information needs.  As evidence, a wide range of community Q&A sites have emerged to help people resolve their ToT information needs with the help of other people—e.g.,
 - https://www.reddit.com/r/tipofmytongue
 - https://irememberthismovie.com
 - https://www.watzatsong.com/en
@@ -26,7 +26,7 @@ ToT information requests (or "queries") are verbose and contain a wide-range of 
 
 The TREC ToT track aims to develop IR systems that can successfully resolve ToT information needs.  Progress in this area will likely benefit other IR systems that must deal with memory assistance, such as personal information management (PIM) systems (e.g., email re-finding).
 
-The 2023 TREC ToT Track will focus on movie identification—a task that is broadly relatable and has been the focus of recent research.
+The 2023 TREC ToT Track will focus on movie identification—a task that is broadly relatable and has been the focus of recent research [<a href="https://dl.acm.org/doi/abs/10.1145/3406522.3446021" target="_blank">1</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3465336.3475096" target="_blank">2</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">3</a>, <a href="https://ceur-ws.org/Vol-3366/paper-03.pdf" target="_blank">4</a>].
 
 
 ## Motivations and challenges
