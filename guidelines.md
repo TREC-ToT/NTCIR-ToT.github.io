@@ -14,7 +14,7 @@ layout: default
 
 ## Registration
 
-(Coming soon.)
+To participate in TREC please pre-register at the following website: [https://ir.nist.gov/trecsubmit.open/application.html](https://ir.nist.gov/trecsubmit.open/application.html).
 
 ## Task definition
 
