@@ -45,11 +45,31 @@ Each document in the corpus will be described by the following fields:
 Queries (or topics in TREC lingo) are sourced from two distinct sources hereby referred to simply as Source-1 and Source-2. Participating groups will be given a JSONL file consisting of a mixture of Source-1 and Source-2 queries for training, development, and test. For the Source-1 subset, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty). Note that due to data sharing limitations, the title and text of the Source-2 subset will not be distributed. Participants can download the title and text using a script distributed with the data.
 
 Participants will be provided the following query sets as part of this year's track.
-- Training: 150 Source-1 queries and 9000 Source-2 queries.
-- Development: 150 Source-1 queries and 1000 Source-2 queries.
+- Train: 150 Source-1 queries and 9000 Source-2 queries.
+- Dev: 150 Source-1 queries and 1000 Source-2 queries.
 - Test: 150 Source-1 queries and 1000 Source-2 queries.
 
-## Submission, evaluation and judging
+## Submission and evaluation
 
-(Coming soon.)
+We will be following a similar format as the ones used by most TREC submissions, which is repeated below. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
 
+```text
+1 Q0 pid1    1 2.73 runid1
+1 Q0 pid2    2 2.71 runid1
+1 Q0 pid3    3 2.61 runid1
+1 Q0 pid4    4 2.05 runid1
+1 Q0 pid5    5 1.89 runid1
+```
+
+, where:
+
+* The first column is the query (topic) ID.
+* The second column is currently unused and should always be "Q0".
+* The third column is the official identifier of the retrieved document.
+* The fourth column is the rank the document is retrieved.
+* The fifth column is the score (integer or floating point) that generated the ranking. This score **must** be in descending (non-increasing) order.
+* The sixth column is the ID of the run you are submitting.
+
+The main type of TREC submission is _automatic_, which means there was not manual intervention in running the test queries. This means you should not adjust your runs, rewrite the query, retrain your model, or make any other sorts of manual adjustments after you see the test queries. The ideal case is that you only look at the test queries to check that they ran properly (i.e. no bugs) then you submit your automatic runs. However, if you want to have a human in the loop for your run, or do anything else that uses the test queries to adjust your model or ranking, you can mark your run as _manual_. Manual runs are interesting, and we may learn a lot, but these are distinct from our main scenario which is a system that responds to unseen queries automatically.
+
+Runs will be evaluated using metrics appropriate for retrieval scenarios with one relevant document. In particular, **our primary evaluation metric for this year's track will be discounted gain (DG)** but we may also compute other metrics such as reciprocal rank (RR) and succes@k.
