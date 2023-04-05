@@ -53,8 +53,8 @@ Participants will be provided the following query sets as part of this year's tr
 
 You are generally allowed to use external information while developing your runs. When you submit your runs, please fill in a form listing what resources you used.
 This could include an external corpus such as TMDB or a pretrained model (e.g. word embeddings, BERT). Additionally,
-- Participating groups  are PERMITTED and encouraged to gather movie data from multiple sources. We are providing tools to leverage data from Wikipedia, Wikidata, IMDB, and TMDB. Groups are encouraged to explore other resources on their own. Pages from different sources can often be resolved using the IMDB ID (e.g., Wikipedia pages often contain the movie’s IMDB ID).
-- Participating groups are PERMITTED and encouraged to leverage the qualitative codes associated with the Source-1 train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
+- Participating groups  are **PERMITTED** and encouraged to gather movie data from multiple sources. We are providing tools to leverage data from Wikipedia, Wikidata, IMDB, and TMDB. Groups are encouraged to explore other resources on their own. Pages from different sources can often be resolved using the IMDB ID (e.g., Wikipedia pages often contain the movie’s IMDB ID).
+- Participating groups are **PERMITTED** and encouraged to leverage the qualitative codes associated with the Source-1 train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
 
 ## Submission and evaluation
 
