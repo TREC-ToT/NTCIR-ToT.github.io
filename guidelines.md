@@ -49,6 +49,13 @@ Participants will be provided the following query sets as part of this year's tr
 - Dev: 150 Source-1 queries and 1000 Source-2 queries.
 - Test: 150 Source-1 queries and 1000 Source-2 queries.
 
+### Use of external information
+
+You are generally allowed to use external information while developing your runs. When you submit your runs, please fill in a form listing what resources you used.
+This could include an external corpus such as TMDB or a pretrained model (e.g. word embeddings, BERT). Additionally,
+- Participating groups  are PERMITTED and encouraged to gather movie data from multiple sources. We are providing tools to leverage data from Wikipedia, Wikidata, IMDB, and TMDB. Groups are encouraged to explore other resources on their own. Pages from different sources can often be resolved using the IMDB ID (e.g., Wikipedia pages often contain the movie’s IMDB ID).
+- Participating groups are PERMITTED and encouraged to leverage the qualitative codes associated with the Source-1 train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
+
 ## Submission and evaluation
 
 We will be following a similar format as the ones used by most TREC submissions, which is repeated below. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
