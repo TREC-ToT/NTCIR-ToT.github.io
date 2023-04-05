@@ -74,7 +74,7 @@ We will be following a similar format as the ones used by most TREC submissions,
 * The second column is currently unused and should always be "Q0".
 * The third column is the official identifier of the retrieved document.
 * The fourth column is the rank the document is retrieved.
-* The fifth column is the score (integer or floating point) that generated the ranking. This score **must** be in descending (non-increasing) order.
+* The fifth column is the score (integer or floating point) that generated the ranking. This score must be in descending (non-increasing) order.
 * The sixth column is the ID of the run you are submitting.
 
 The main type of TREC submission is _automatic_, which means there was not manual intervention in running the test queries. This means you should not adjust your runs, rewrite the query, retrain your model, or make any other sorts of manual adjustments after you see the test queries. The ideal case is that you only look at the test queries to check that they ran properly (i.e. no bugs) then you submit your automatic runs. However, if you want to have a human in the loop for your run, or do anything else that uses the test queries to adjust your model or ranking, you can mark your run as _manual_. Manual runs are interesting, and we may learn a lot, but these are distinct from our main scenario which is a system that responds to unseen queries automatically.
