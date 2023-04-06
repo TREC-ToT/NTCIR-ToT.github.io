@@ -18,7 +18,7 @@ To participate in TREC please pre-register at the following website: <a href="ht
 
 ## Task definition
 
-In terms of input and output, the movie identification task is relatively straightforward—given an input TOT request, output a ranked list of movies.  Each movie must be identified by its Wikipedia page id and the correct movie should be ranked as high as possible.  For each query, runs should return a ranked list of 1000 Wikipedia page ids.  Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted gain and reciprocal rank.
+In terms of input and output, the movie identification task is relatively straightforward—given an input TOT request, output a ranked list of movies.  Each movie must be identified by its Wikipedia page id and the correct movie should be ranked as high as possible.  For each query, runs should return a ranked list of 1000 Wikipedia page ids.  Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted cumulative gain, reciprocal rank, and succes@k.
 
 ## Datasets
 
@@ -42,19 +42,23 @@ Each document in the corpus will be described by the following fields:
 
 ### Queries
 
-Queries (or topics in TREC lingo) are sourced from two distinct sources hereby referred to simply as Source-1 and Source-2. Participating groups will be given a JSONL file consisting of a mixture of Source-1 and Source-2 queries for training, development, and test. For the Source-1 subset, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty). Note that due to data sharing limitations, the title and text of the Source-2 subset will not be distributed. Participants can download the title and text using a script distributed with the data.
+Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> and the <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">Reddit-TOMT dataset</a>. Participating groups will be given a JSONL file consisting of a mixture of MS-TOT and Reddit-TOMT queries for training, development, and test. For the MS-TOT subset, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty). Note that due to data sharing limitations, the title and text of the Reddit-TOMT subset will not be distributed. Participants can download the title and text using a script distributed with the data.
 
-Participants will be provided the following query sets as part of this year's track.
-- Train: 150 Source-1 queries and 9000 Source-2 queries.
-- Dev: 150 Source-1 queries and 1000 Source-2 queries.
-- Test: 150 Source-1 queries and 1000 Source-2 queries.
+[//]: # (Participants will be provided the following query sets as part of this year's track.)
+[//]: # (- Train: 150 MS-TOT queries and 9000 Reddit-TOMT queries.)
+[//]: # (- Dev: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
+[//]: # (- Test: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
 
 ### Use of external information
 
 You are generally allowed to use external information while developing your runs. When you submit your runs, please fill in a form listing what resources you used.
 This could include an external corpus such as TMDB or a pretrained model (e.g. word embeddings, BERT). Additionally,
 - Participating groups  are **PERMITTED** and encouraged to gather movie data from multiple sources. We are providing tools to leverage data from Wikipedia, Wikidata, IMDB, and TMDB. Groups are encouraged to explore other resources on their own. Pages from different sources can often be resolved using the IMDB ID (e.g., Wikipedia pages often contain the movie’s IMDB ID).
-- Participating groups are **PERMITTED** and encouraged to leverage the qualitative codes associated with the Source-1 train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
+- Participating groups are **PERMITTED** and encouraged to leverage the qualitative codes associated with the MS-TOT train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
+- Participating groups are **PROHIBITED** from using any data from the following websites that are not already included in the train/dev sets described above. **If you do so, you will be training and/or hyperparameter tuning using test data.**
+    - <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a>
+    - <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a>
+  
 
 ## Submission and evaluation
 
@@ -79,4 +83,4 @@ We will be following a similar format as the ones used by most TREC submissions,
 
 The main type of TREC submission is *automatic*, which means there was not manual intervention in running the test queries. This means you should not adjust your runs, rewrite the query, retrain your model, or make any other sorts of manual adjustments after you see the test queries. The ideal case is that you only look at the test queries to check that they ran properly (i.e. no bugs) then you submit your automatic runs. However, if you want to have a human in the loop for your run, or do anything else that uses the test queries to adjust your model or ranking, you can mark your run as *manual*. Manual runs are interesting, and we may learn a lot, but these are distinct from our main scenario which is a system that responds to unseen queries automatically.
 
-Runs will be evaluated using metrics appropriate for retrieval scenarios with one relevant document. In particular, **our primary evaluation metric for this year's track will be discounted gain (DG)** but we may also compute other metrics such as reciprocal rank (RR) and succes@k.
+Runs will be evaluated using metrics appropriate for retrieval scenarios with one relevant document. In particular, **our primary evaluation metric for this year's track will be discounted cumulative gain (DCG)** but we may also compute other metrics such as reciprocal rank (RR) and succes@k.
