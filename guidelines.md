@@ -90,6 +90,7 @@ Runs will be evaluated using metrics appropriate for retrieval scenarios with on
 ### Example Document
 
 <details><summary>Document</summary>
+
 ```json
 {
   "page_title": "Actrius",
@@ -150,6 +151,7 @@ Runs will be evaluated using metrics appropriate for retrieval scenarios with on
 **Note:**  `sentence_annotations` is `null` for queries with `source:'R-TOMT'`
 
 <details><summary>Query</summary>
+
 ```json
 {
   "id": "763",
