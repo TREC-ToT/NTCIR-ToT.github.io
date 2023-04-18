@@ -40,6 +40,68 @@ Each document in the corpus will be described by the following fields:
 - **infoboxes**: A list of dictionaries, each containing parsed infoboxes.
 - **page_source**: Wikepedia page source, in <a href="https://en.wikipedia.org/wiki/Help:Wikitext" target="_blank">WikiText</a> format. Participants can use this for additional processing—e.g., using a <a href="https://www.mediawiki.org/wiki/Alternative_parsers" target="_blank">parser</a> like <a href="https://mwparserfromhell.readthedocs.io/en/latest/" target="_blank">mwparserfromhell</a>.
 
+### Example Document
+
+<details><summary>Document</summary>
+{% raw %}
+```json
+{
+   "page_title":"Actrius",
+   "page_source":"{{Use dmy dates|date=March 2021}}\n{{Infobox film\n| name           = Actresses\n| image          = Actrius film poster.jpg\n| alt            = \n| caption        = Catalan language film poster\n| native_name      = ([[Catalan language|Catalan]]: '''''Actrius''''')\n| director       = [[Ventura Pons]]\n| producer       = Ventura Pons\n| writer         = [[Josep Maria Benet i Jornet]]\n| screenplay     = Ventura Pons\n| story          = \n| based_on       = {{based on|(stage play) ''E.R.''|Josep Maria Benet i Jornet}}\n| starring       = {{ubl|[[N\u00faria Espert]]|[[Rosa Maria Sard\u00e0]]|[[Anna Lizaran]]|[[Merc\u00e8 Pons]]}}\n| narrator       = <!-- or: |narrators = -->\n| music          = Carles Cases\n| cinematography = Tom\u00e0s Pladevall\n| editing        = Pere Abadal\n| production_companies = {{ubl|[[Canal+|Canal+ Espa\u00f1a]]|Els Films de la Rambla S.A.|[[Generalitat de Catalunya|Generalitat de Catalunya - Departament de Cultura]]|[[Televisi\u00f3n Espa\u00f1ola]]}}\n| distributor    = [[Buena Vista International]]\n| released       = {{film date|df=yes|1997|1|17|[[Spain]]}}\n| runtime        = 100 minutes\n| country        = Spain\n| language       = Catalan\n| budget         = \n| gross          = <!--(please use condensed and rounded values, e.g. \"\u00a311.6 million\" not \"\u00a311,586,221\")-->\n}}\n\n'''''Actresses''''' ([[Catalan language|Catalan]]: '''''Actrius''''') is a 1997 [[Catalan language]] Spanish drama film produced and directed by [[Ventura Pons]] and based on the award-winning stage play ''E.R.'' by [[Josep Maria Benet i Jornet]]. The film has no male actors, with all roles played by females.<ref name=\"El Pais\">{{cite news|last1=Torres|first1=Rosanna|title='E. R', de Benet i Jornet, es llevada al cine y al teatro|url=http://elpais.com/diario/1996/10/15/cultura/845330405_850215.html|access-date=2015-12-21|lang=es|work=[[El Pa\u00eds]]|date=1996-10-15|archive-url=https://web.archive.org/web/20121014165502/http://elpais.com/diario/1996/10/15/cultura/845330405_850215.html|archive-date=2012-10-14}}</ref> The film was produced in 1996. <ref>{{cite web |title=Actrius |url=https://www.bcncatfilmcommission.com/en/films/actrius|lang=en|website=Barcelona Film Commission |access-date=2021-05-13|archive-url=https://web.archive.org/web/20210513150105/https://www.bcncatfilmcommission.com/en/films/actrius|archive-date=2021-05-13|url-status=live}}</ref>\n\n== Synopsis ==\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress ([[Merc\u00e8 Pons]]) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc ([[N\u00faria Espert]]), the television star Assumpta Roca ([[Rosa Maria Sard\u00e0]]), and dubbing director Maria Caminal ([[Anna Lizaran]]).<ref name=SFF>{{cite web | url=http://www.stockholmfilmfestival.se/en/festival/1997/film/actrius | title=Actrius |lang=en|publisher=[[Stockholm International Film Festival]] |date=1997 | access-date=2015-12-21|archive-url=https://web.archive.org/web/20151222175333/http://www.stockholmfilmfestival.se/en/festival/1997/film/actrius|archive-date=2015-12-22|url-status=dead }}</ref>\n\n== Cast ==\n* [[N\u00faria Espert]] as Gl\u00f2ria Marc\n* [[Rosa Maria Sard\u00e0]] as Assumpta Roca\n* [[Anna Lizaran]] as Maria Caminal\n* [[Merc\u00e8 Pons]] as Estudiant\n\n== Recognition ==\n\n=== Screenings ===\n''Actrius'' screened in 2001 at the [[Grauman's Egyptian Theatre]] in an [[American Cinematheque]] retrospective of the works of its director. The film had first screened at the same location in 1998.<ref name=\"LA Times\">{{cite news|last1=THomas|first1=Kevin|title=Sometimes, the World Gets in the Way|url=http://articles.latimes.com/2001/mar/01/entertainment/ca-31570|lang=en|access-date=2015-12-21|newspaper=[[Los Angeles Times]]|date=2001-03-01|archive-url=https://web.archive.org/web/20121221084433/http://articles.latimes.com/2001/mar/01/entertainment/ca-31570|archive-date=2012-12-21|url-status=live}}</ref> It was also shown at the 1997 [[Stockholm International Film Festival]].<ref name=SFF />\n\n=== Reception ===\nIn ''Movie - Film - Review'', Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\".<ref name=Tookey/> Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to ''[[All About Eve]]''\", and were \"insufficiently different to deserve critical parallels with ''[[Rashomon]]''\".<ref name=Tookey/> He also wrote that ''[[The Guardian]]'' called the film a \"slow, stuffy chamber-piece\", and that ''[[The Evening Standard]]'' stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\".<ref name=Tookey>{{cite web|last1=Tookey|first1=Chris|title=review: Actresses / Actrius / Actrices|url=http://www.movie-film-review.com/devFilm.asp?ID=12423|lang=en|publisher=Movie - Film - Review|access-date=2015-12-21|archive-url=https://web.archive.org/web/20120501211137/http://www.movie-film-review.com/devFilm.asp?ID=12423|archive-date=2012-05-01|url-status=dead}}</ref> [[MRQE]] wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"<ref name=MRQE>{{cite web|last1=staff|title=Actrius (1997)|url=http://www.mrqe.com/movie_reviews/actrius-m100030469|lang=en|publisher=[[MRQE]]|access-date=2015-12-21|archive-url=https://web.archive.org/web/20151222150358/http://www.mrqe.com/movie_reviews/actrius-m100030469|archive-date=2015-12-22}}</ref>\n\n=== Awards and nominations ===\n* 1997, won 'Best Catalan Film' at [[Butaca Awards]] for [[Ventura Pons]]\n* 1997, won 'Best Catalan Film Actress' at Butaca Awards, shared by [[N\u00faria Espert]], [[Rosa Maria Sard\u00e0]], [[Anna Lizaran]], and [[Merc\u00e8 Pons]]\n* 1998, nominated for 'Best Screenplay' at [[Goya Awards]], shared by [[Josep Maria Benet i Jornet]] and Ventura Pons\n\n== References ==\n{{reflist}}\n\n== External links ==\n* {{IMDb title|0115462|Actresses}}\n* {{official website|https://web.archive.org/web/20090217140746/http://venturapons.com/filmografia/actrices.html}} [[Wayback Machine|as archived 17 February 2009]] (Spanish)\n\n[[Category:1997 films]]\n[[Category:1997 drama films]]\n[[Category:Catalan-language films]]\n[[Category:Films set in Barcelona]]\n[[Category:Films directed by Ventura Pons]]\n[[Category:Spanish drama films]]\n[[Category:1990s Spanish films]]",
+   "wikidata_id":"Q2823770",
+   "wikidata_classes":[
+      [
+         "Q11424",
+         "film"
+      ]
+   ],
+   "text":"Actresses (Catalan: Actrius) is a 1997 Catalan language Spanish drama film produced and directed by Ventura Pons and based on the award-winning stage play \"E.R.\" by Josep Maria Benet i Jornet. The film has no male actors, with all roles played by females. The film was produced in 1996. \nSynopsis.\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress (Merc\u00e8 Pons) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc (N\u00faria Espert), the television star Assumpta Roca (Rosa Maria Sard\u00e0), and dubbing director Maria Caminal (Anna Lizaran).\nRecognition.\nScreenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.\nReception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"",
+   "sections":{
+      "abstract":"Actresses (Catalan: Actrius) is a 1997 Catalan language Spanish drama film produced and directed by Ventura Pons and based on the award-winning stage play \"E.R.\" by Josep Maria Benet i Jornet. The film has no male actors, with all roles played by females. The film was produced in 1996. ",
+      "synopsis":"Synopsis.\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress (Merc\u00e8 Pons) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc (N\u00faria Espert), the television star Assumpta Roca (Rosa Maria Sard\u00e0), and dubbing director Maria Caminal (Anna Lizaran).",
+      "recognition":"Recognition.\nScreenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.\nReception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"",
+      "screenings":"Screenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.",
+      "reception":"Reception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\""
+   },
+   "infoboxes":[
+      {
+         "name":"film",
+         "params":{
+            "name":"Actresses",
+            "image":"Actrius film poster.jpg",
+            "alt":"",
+            "caption":"Catalan language film poster",
+            "native_name":"([[Catalan language|Catalan]]: '''''Actrius''''')",
+            "director":"[[Ventura Pons]]",
+            "producer":"Ventura Pons",
+            "writer":"[[Josep Maria Benet i Jornet]]",
+            "screenplay":"Ventura Pons",
+            "story":"",
+            "based_on":"{{based on|(stage play) ''E.R.''|Josep Maria Benet i Jornet}}",
+            "starring":"{{ubl|[[N\u00faria Espert]]|[[Rosa Maria Sard\u00e0]]|[[Anna Lizaran]]|[[Merc\u00e8 Pons]]}}",
+            "narrator":"<!-- or: |narrators = -->",
+            "music":"Carles Cases",
+            "cinematography":"Tom\u00e0s Pladevall",
+            "editing":"Pere Abadal",
+            "production_companies":"{{ubl|[[Canal+|Canal+ Espa\u00f1a]]|Els Films de la Rambla S.A.|[[Generalitat de Catalunya|Generalitat de Catalunya - Departament de Cultura]]|[[Televisi\u00f3n Espa\u00f1ola]]}}",
+            "distributor":"[[Buena Vista International]]",
+            "released":"{{film date|df=yes|1997|1|17|[[Spain]]}}",
+            "runtime":"100 minutes",
+            "country":"Spain",
+            "language":"Catalan",
+            "budget":"",
+            "gross":"<!--(please use condensed and rounded values, e.g. \"\u00a311.6 million\" not \"\u00a311,586,221\")-->"
+         }
+      }
+   ],
+   "doc_id":"330"
+}
+```
+{% endraw %}
+
+</details>
+
+
 ### Queries
 
 Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> and the <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">Reddit-TOMT dataset</a>. Participating groups will be given a JSONL file consisting of a mixture of MS-TOT and Reddit-TOMT queries for training, development, and test. An [example query](#example-query) is described below. For the MS-TOT subset, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty). Note that due to data sharing limitations, the title and text of the Reddit-TOMT subset will not be distributed. Participants can download the title and text using a script distributed with the data.
@@ -48,6 +110,80 @@ Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a 
 [//]: # (- Train: 150 MS-TOT queries and 9000 Reddit-TOMT queries.)
 [//]: # (- Dev: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
 [//]: # (- Test: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
+
+### Example query
+
+**Note 1:**  `sentence_annotations` is `null` for queries with `source:'R-TOMT'`
+
+**Note 2:**  Only a single sentence annotation is shown in the example below
+
+<details><summary>Query</summary>
+{% raw %}
+```json
+{
+   "id":"763",
+   "url":"https://irememberthismovie.com/super-rare-surreal-dystopian-masterpiece/",
+   "domain":"movie",
+   "source":"MS-TOT",
+   "title":"Super Rare Surreal Dystopian Masterpiece",
+   "text":"Very rare movie that is scifi/dystopian/experimental/surreal. It\u2019s like Stalker meets el Topo meets Holy Mountain meets Alphaville meets Delicatessen meets Hard to be a God, like Kurosawa, Tarkovsky, and Lynch had a kid together. It was color, possibly Russian, and I don\u2019t really remember the decade but want to say 60s or 70s, though could easily be more recent. It is VERY rare, there is only one crappy partial print of it, and that is what the youtube version is from. Lot of wide shots in a surreal wilderness, winter settings, strange bleeding saturation in some shots. Crazy costumes. Seriously one of the strangest films I\u2019ve ever seen and my favorite films are strange/weird ones. If you\u2019ve ever seen what you\u2019re thinking of on a \u201cbest weird movies\u201d or \u201cyou\u2019ve never seen this!\u201d list, that\u2019s NOT it. I don\u2019t think this film even has a cult following of ten people. It\u2019s an actual rare gem. Have been looking through selections at 366 Weird Movies and not found it yet (btw the way most of those titles are exactly the kind of not-actually-rare movies this film is definitely not).",
+   "wikipedia_id":"16742289",
+   "wikipedia_url":"https://en.wikipedia.org/wiki/On_the_Silver_Globe_(film)",
+   "wikidata_id":"Q1988165",
+   "imdb_url":"https://www.imdb.com/title/tt0093593",
+   "sentence_annotations":[
+      {
+         "id":1,
+         "text":"Very rare movie that is scifi/dystopian/experimental/surreal.",
+         "labels":{
+            "opinion":false,
+            "emotion":false,
+            "hedging":true,
+            "social":false,
+            "comparison_relative":false,
+            "search":false,
+            "movie":{
+               "music_compare":false,
+               "genre_audience":false,
+               "production_camera_angle":false,
+               "timeframe_singular":false,
+               "origin_actor":false,
+               "object":false,
+               "location_specific":false,
+               "person_fictional":false,
+               "production_visual":false,
+               "scene":false,
+               "negation":false,
+               "production_audio":false,
+               "character":false,
+               "genre_traditional_tone":true,
+               "release_date":false,
+               "location_type":false,
+               "origin_language":false,
+               "origin_movie":false,
+               "person_real":false,
+               "plot":false,
+               "quote":false,
+               "category":true,
+               "music_specific":false,
+               "timeframe_plural":false
+            },
+            "context":{
+               "cross_media":false,
+               "physical_medium":false,
+               "situational_count":false,
+               "physical_user_location":false,
+               "situational_evidence":false,
+               "situational_witness":false,
+               "temporal":false
+            }
+         }
+      }
+   ]
+}
+```
+{% endraw %}
+</details>
 
 ### Use of external information
 
@@ -85,651 +221,3 @@ The main type of TREC submission is *automatic*, which means there was not manua
 
 Runs will be evaluated using metrics appropriate for retrieval scenarios with one relevant document. In particular, **our primary evaluation metric for this year's track will be discounted cumulative gain (DCG)** but we may also compute other metrics such as reciprocal rank (RR) and success@k.
 
-## Examples
-
-### Example Document
-
-<details><summary>Document</summary>
-
-```json
-{
-  "page_title": "Actrius",
-  "page_source": "{{Use dmy dates|date=March 2021}}\n{{Infobox film\n| name           = Actresses\n| image          = Actrius film poster.jpg\n| alt            = \n| caption        = Catalan language film poster\n| native_name      = ([[Catalan language|Catalan]]: '''''Actrius''''')\n| director       = [[Ventura Pons]]\n| producer       = Ventura Pons\n| writer         = [[Josep Maria Benet i Jornet]]\n| screenplay     = Ventura Pons\n| story          = \n| based_on       = {{based on|(stage play) ''E.R.''|Josep Maria Benet i Jornet}}\n| starring       = {{ubl|[[N\u00faria Espert]]|[[Rosa Maria Sard\u00e0]]|[[Anna Lizaran]]|[[Merc\u00e8 Pons]]}}\n| narrator       = <!-- or: |narrators = -->\n| music          = Carles Cases\n| cinematography = Tom\u00e0s Pladevall\n| editing        = Pere Abadal\n| production_companies = {{ubl|[[Canal+|Canal+ Espa\u00f1a]]|Els Films de la Rambla S.A.|[[Generalitat de Catalunya|Generalitat de Catalunya - Departament de Cultura]]|[[Televisi\u00f3n Espa\u00f1ola]]}}\n| distributor    = [[Buena Vista International]]\n| released       = {{film date|df=yes|1997|1|17|[[Spain]]}}\n| runtime        = 100 minutes\n| country        = Spain\n| language       = Catalan\n| budget         = \n| gross          = <!--(please use condensed and rounded values, e.g. \"\u00a311.6 million\" not \"\u00a311,586,221\")-->\n}}\n\n'''''Actresses''''' ([[Catalan language|Catalan]]: '''''Actrius''''') is a 1997 [[Catalan language]] Spanish drama film produced and directed by [[Ventura Pons]] and based on the award-winning stage play ''E.R.'' by [[Josep Maria Benet i Jornet]]. The film has no male actors, with all roles played by females.<ref name=\"El Pais\">{{cite news|last1=Torres|first1=Rosanna|title='E. R', de Benet i Jornet, es llevada al cine y al teatro|url=http://elpais.com/diario/1996/10/15/cultura/845330405_850215.html|access-date=2015-12-21|lang=es|work=[[El Pa\u00eds]]|date=1996-10-15|archive-url=https://web.archive.org/web/20121014165502/http://elpais.com/diario/1996/10/15/cultura/845330405_850215.html|archive-date=2012-10-14}}</ref> The film was produced in 1996. <ref>{{cite web |title=Actrius |url=https://www.bcncatfilmcommission.com/en/films/actrius|lang=en|website=Barcelona Film Commission |access-date=2021-05-13|archive-url=https://web.archive.org/web/20210513150105/https://www.bcncatfilmcommission.com/en/films/actrius|archive-date=2021-05-13|url-status=live}}</ref>\n\n== Synopsis ==\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress ([[Merc\u00e8 Pons]]) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc ([[N\u00faria Espert]]), the television star Assumpta Roca ([[Rosa Maria Sard\u00e0]]), and dubbing director Maria Caminal ([[Anna Lizaran]]).<ref name=SFF>{{cite web | url=http://www.stockholmfilmfestival.se/en/festival/1997/film/actrius | title=Actrius |lang=en|publisher=[[Stockholm International Film Festival]] |date=1997 | access-date=2015-12-21|archive-url=https://web.archive.org/web/20151222175333/http://www.stockholmfilmfestival.se/en/festival/1997/film/actrius|archive-date=2015-12-22|url-status=dead }}</ref>\n\n== Cast ==\n* [[N\u00faria Espert]] as Gl\u00f2ria Marc\n* [[Rosa Maria Sard\u00e0]] as Assumpta Roca\n* [[Anna Lizaran]] as Maria Caminal\n* [[Merc\u00e8 Pons]] as Estudiant\n\n== Recognition ==\n\n=== Screenings ===\n''Actrius'' screened in 2001 at the [[Grauman's Egyptian Theatre]] in an [[American Cinematheque]] retrospective of the works of its director. The film had first screened at the same location in 1998.<ref name=\"LA Times\">{{cite news|last1=THomas|first1=Kevin|title=Sometimes, the World Gets in the Way|url=http://articles.latimes.com/2001/mar/01/entertainment/ca-31570|lang=en|access-date=2015-12-21|newspaper=[[Los Angeles Times]]|date=2001-03-01|archive-url=https://web.archive.org/web/20121221084433/http://articles.latimes.com/2001/mar/01/entertainment/ca-31570|archive-date=2012-12-21|url-status=live}}</ref> It was also shown at the 1997 [[Stockholm International Film Festival]].<ref name=SFF />\n\n=== Reception ===\nIn ''Movie - Film - Review'', Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\".<ref name=Tookey/> Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to ''[[All About Eve]]''\", and were \"insufficiently different to deserve critical parallels with ''[[Rashomon]]''\".<ref name=Tookey/> He also wrote that ''[[The Guardian]]'' called the film a \"slow, stuffy chamber-piece\", and that ''[[The Evening Standard]]'' stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\".<ref name=Tookey>{{cite web|last1=Tookey|first1=Chris|title=review: Actresses / Actrius / Actrices|url=http://www.movie-film-review.com/devFilm.asp?ID=12423|lang=en|publisher=Movie - Film - Review|access-date=2015-12-21|archive-url=https://web.archive.org/web/20120501211137/http://www.movie-film-review.com/devFilm.asp?ID=12423|archive-date=2012-05-01|url-status=dead}}</ref> [[MRQE]] wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"<ref name=MRQE>{{cite web|last1=staff|title=Actrius (1997)|url=http://www.mrqe.com/movie_reviews/actrius-m100030469|lang=en|publisher=[[MRQE]]|access-date=2015-12-21|archive-url=https://web.archive.org/web/20151222150358/http://www.mrqe.com/movie_reviews/actrius-m100030469|archive-date=2015-12-22}}</ref>\n\n=== Awards and nominations ===\n* 1997, won 'Best Catalan Film' at [[Butaca Awards]] for [[Ventura Pons]]\n* 1997, won 'Best Catalan Film Actress' at Butaca Awards, shared by [[N\u00faria Espert]], [[Rosa Maria Sard\u00e0]], [[Anna Lizaran]], and [[Merc\u00e8 Pons]]\n* 1998, nominated for 'Best Screenplay' at [[Goya Awards]], shared by [[Josep Maria Benet i Jornet]] and Ventura Pons\n\n== References ==\n{{reflist}}\n\n== External links ==\n* {{IMDb title|0115462|Actresses}}\n* {{official website|https://web.archive.org/web/20090217140746/http://venturapons.com/filmografia/actrices.html}} [[Wayback Machine|as archived 17 February 2009]] (Spanish)\n\n[[Category:1997 films]]\n[[Category:1997 drama films]]\n[[Category:Catalan-language films]]\n[[Category:Films set in Barcelona]]\n[[Category:Films directed by Ventura Pons]]\n[[Category:Spanish drama films]]\n[[Category:1990s Spanish films]]",
-  "wikidata_id": "Q2823770",
-  "wikidata_classes": [
-    [
-      "Q11424",
-      "film"
-    ]
-  ],
-  "text": "Actresses (Catalan: Actrius) is a 1997 Catalan language Spanish drama film produced and directed by Ventura Pons and based on the award-winning stage play \"E.R.\" by Josep Maria Benet i Jornet. The film has no male actors, with all roles played by females. The film was produced in 1996. \nSynopsis.\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress (Merc\u00e8 Pons) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc (N\u00faria Espert), the television star Assumpta Roca (Rosa Maria Sard\u00e0), and dubbing director Maria Caminal (Anna Lizaran).\nRecognition.\nScreenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.\nReception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"",
-  "sections": {
-    "abstract": "Actresses (Catalan: Actrius) is a 1997 Catalan language Spanish drama film produced and directed by Ventura Pons and based on the award-winning stage play \"E.R.\" by Josep Maria Benet i Jornet. The film has no male actors, with all roles played by females. The film was produced in 1996. ",
-    "synopsis": "Synopsis.\nIn order to prepare herself to play a role commemorating the life of legendary actress Empar Ribera, young actress (Merc\u00e8 Pons) interviews three established actresses who had been the Ribera's pupils: the international diva Gl\u00f2ria Marc (N\u00faria Espert), the television star Assumpta Roca (Rosa Maria Sard\u00e0), and dubbing director Maria Caminal (Anna Lizaran).",
-    "recognition": "Recognition.\nScreenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.\nReception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\"",
-    "screenings": "Screenings.\n\"Actrius\" screened in 2001 at the Grauman's Egyptian Theatre in an American Cinematheque retrospective of the works of its director. The film had first screened at the same location in 1998. It was also shown at the 1997 Stockholm International Film Festival.",
-    "reception": "Reception.\nIn \"Movie - Film - Review\", Christopher Tookey wrote that though the actresses were \"competent in roles that may have some reference to their own careers\", the film \"is visually unimaginative, never escapes its stage origins, and is almost totally lacking in revelation or surprising incident\". Noting that there were \"occasional, refreshing moments of intergenerational bitchiness\", they did not \"justify comparisons to \"All About Eve\"\", and were \"insufficiently different to deserve critical parallels with \"Rashomon\"\". He also wrote that \"The Guardian\" called the film a \"slow, stuffy chamber-piece\", and that \"The Evening Standard\" stated the film's \"best moments exhibit the bitchy tantrums seething beneath the threesome's composed veneers\". MRQE wrote \"This cinematic adaptation of a theatrical work is true to the original, but does not stray far from a theatrical rendering of the story.\""
-  },
-  "infoboxes": [
-    {
-      "name": "film",
-      "params": {
-        "name": "Actresses",
-        "image": "Actrius film poster.jpg",
-        "alt": "",
-        "caption": "Catalan language film poster",
-        "native_name": "([[Catalan language|Catalan]]: '''''Actrius''''')",
-        "director": "[[Ventura Pons]]",
-        "producer": "Ventura Pons",
-        "writer": "[[Josep Maria Benet i Jornet]]",
-        "screenplay": "Ventura Pons",
-        "story": "",
-        "based_on": "{{based on|(stage play) ''E.R.''|Josep Maria Benet i Jornet}}",
-        "starring": "{{ubl|[[N\u00faria Espert]]|[[Rosa Maria Sard\u00e0]]|[[Anna Lizaran]]|[[Merc\u00e8 Pons]]}}",
-        "narrator": "<!-- or: |narrators = -->",
-        "music": "Carles Cases",
-        "cinematography": "Tom\u00e0s Pladevall",
-        "editing": "Pere Abadal",
-        "production_companies": "{{ubl|[[Canal+|Canal+ Espa\u00f1a]]|Els Films de la Rambla S.A.|[[Generalitat de Catalunya|Generalitat de Catalunya - Departament de Cultura]]|[[Televisi\u00f3n Espa\u00f1ola]]}}",
-        "distributor": "[[Buena Vista International]]",
-        "released": "{{film date|df=yes|1997|1|17|[[Spain]]}}",
-        "runtime": "100 minutes",
-        "country": "Spain",
-        "language": "Catalan",
-        "budget": "",
-        "gross": "<!--(please use condensed and rounded values, e.g. \"\u00a311.6 million\" not \"\u00a311,586,221\")-->"
-      }
-    }
-  ],
-  "doc_id": "330"
-}
-```
-</details>
-
-### Example query
-
-**Note:**  `sentence_annotations` is `null` for queries with `source:'R-TOMT'`
-
-<details><summary>Query</summary>
-
-```json
-{
-  "id": "763",
-  "url": "https://irememberthismovie.com/super-rare-surreal-dystopian-masterpiece/",
-  "domain": "movie",
-  "source": "MS-TOT",
-  "title": "Super Rare Surreal Dystopian Masterpiece",
-  "text": "Very rare movie that is scifi/dystopian/experimental/surreal. It\u2019s like Stalker meets el Topo meets Holy Mountain meets Alphaville meets Delicatessen meets Hard to be a God, like Kurosawa, Tarkovsky, and Lynch had a kid together. It was color, possibly Russian, and I don\u2019t really remember the decade but want to say 60s or 70s, though could easily be more recent. It is VERY rare, there is only one crappy partial print of it, and that is what the youtube version is from. Lot of wide shots in a surreal wilderness, winter settings, strange bleeding saturation in some shots. Crazy costumes. Seriously one of the strangest films I\u2019ve ever seen and my favorite films are strange/weird ones. If you\u2019ve ever seen what you\u2019re thinking of on a \u201cbest weird movies\u201d or \u201cyou\u2019ve never seen this!\u201d list, that\u2019s NOT it. I don\u2019t think this film even has a cult following of ten people. It\u2019s an actual rare gem. Have been looking through selections at 366 Weird Movies and not found it yet (btw the way most of those titles are exactly the kind of not-actually-rare movies this film is definitely not).",
-  "wikipedia_id": "16742289",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/On_the_Silver_Globe_(film)",
-  "wikidata_id": "Q1988165",
-  "imdb_url": "https://www.imdb.com/title/tt0093593",
-  "sentence_annotations": [
-    {
-      "id": 1,
-      "text": "Very rare movie that is scifi/dystopian/experimental/surreal.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": true,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": true,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": true,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 2,
-      "text": "It\u2019s like Stalker meets el Topo meets Holy Mountain meets Alphaville meets Delicatessen meets Hard to be a God, like Kurosawa, Tarkovsky, and Lynch had a kid together.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": true,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": true,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 3,
-      "text": "It was color, possibly Russian, and I don\u2019t really remember the decade but want to say 60s or 70s, though could easily be more recent.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": true,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": true,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": true,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": true,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 4,
-      "text": "It is VERY rare, there is only one crappy partial print of it, and that is what the youtube version is from.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 5,
-      "text": "Lot of wide shots in a surreal wilderness, winter settings, strange bleeding saturation in some shots.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": true,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": true,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 6,
-      "text": "Crazy costumes.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": true,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 7,
-      "text": "Seriously one of the strangest films I\u2019ve ever seen and my favorite films are strange/weird ones.",
-      "labels": {
-        "opinion": true,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": true,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": true,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 8,
-      "text": "If you\u2019ve ever seen what you\u2019re thinking of on a \u201cbest weird movies\u201d or \u201cyou\u2019ve never seen this!\u201d",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": true,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 9,
-      "text": "list, that\u2019s NOT it.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 10,
-      "text": "I don\u2019t think this film even has a cult following of ten people.",
-      "labels": {
-        "opinion": true,
-        "emotion": false,
-        "hedging": true,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": true,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 11,
-      "text": "It\u2019s an actual rare gem.",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": false,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    },
-    {
-      "id": 12,
-      "text": "Have been looking through selections at 366 Weird Movies and not found it yet (btw the way most of those titles are exactly the kind of not-actually-rare movies this film is definitely not).",
-      "labels": {
-        "opinion": false,
-        "emotion": false,
-        "hedging": false,
-        "social": false,
-        "comparison_relative": false,
-        "search": true,
-        "movie": {
-          "music_compare": false,
-          "genre_audience": false,
-          "production_camera_angle": false,
-          "timeframe_singular": false,
-          "origin_actor": false,
-          "object": false,
-          "location_specific": false,
-          "person_fictional": false,
-          "production_visual": false,
-          "scene": false,
-          "negation": false,
-          "production_audio": false,
-          "character": false,
-          "genre_traditional_tone": false,
-          "release_date": false,
-          "location_type": false,
-          "origin_language": false,
-          "origin_movie": false,
-          "person_real": false,
-          "plot": false,
-          "quote": false,
-          "category": false,
-          "music_specific": false,
-          "timeframe_plural": false
-        },
-        "context": {
-          "cross_media": false,
-          "physical_medium": false,
-          "situational_count": false,
-          "physical_user_location": false,
-          "situational_evidence": false,
-          "situational_witness": false,
-          "temporal": false
-        }
-      }
-    }
-  ]
-}
-```
-</details>
