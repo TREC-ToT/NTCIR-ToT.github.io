@@ -106,18 +106,12 @@ Each document in the corpus will be described by the following fields:
 
 ### Queries
 
-Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> and the <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">Reddit-TOMT dataset</a>. Participating groups will be given a JSONL file consisting of a mixture of MS-TOT and Reddit-TOMT queries for training, development, and test. An [example query](#example-query) is described below. For the MS-TOT subset, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty). Note that due to data sharing limitations, the title and text of the Reddit-TOMT subset will not be distributed. Participants can download the title and text using a script distributed with the data.
+Queries (or topics in TREC lingo) are sourced from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a>. Participating groups will be given a JSONL file consisting of a random sample of 150 MS-TOT queries each for training, development, and test. An [example query](#example-query) is described below. Corresponding  to these queries, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty).
 
-[//]: # (Participants will be provided the following query sets as part of this year's track.)
-[//]: # (- Train: 150 MS-TOT queries and 9000 Reddit-TOMT queries.)
-[//]: # (- Dev: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
-[//]: # (- Test: 150 MS-TOT queries and 1000 Reddit-TOMT queries.)
 
 ### Example query
 
-**Note 1:**  `sentence_annotations` is `null` for queries with `source:'R-TOMT'`
-
-**Note 2:**  Only a single sentence annotation is shown in the example below
+**Note:**  Only a single sentence annotation is shown in the example below
 
 <details><summary>Click here to see Query</summary>
 
@@ -127,7 +121,6 @@ Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a 
    "id":"763",
    "url":"https://irememberthismovie.com/super-rare-surreal-dystopian-masterpiece/",
    "domain":"movie",
-   "source":"MS-TOT",
    "title":"Super Rare Surreal Dystopian Masterpiece",
    "text":"Very rare movie that is scifi/dystopian/experimental/surreal. It\u2019s like Stalker meets el Topo meets Holy Mountain meets Alphaville meets Delicatessen meets Hard to be a God, like Kurosawa, Tarkovsky, and Lynch had a kid together. It was color, possibly Russian, and I don\u2019t really remember the decade but want to say 60s or 70s, though could easily be more recent. It is VERY rare, there is only one crappy partial print of it, and that is what the youtube version is from. Lot of wide shots in a surreal wilderness, winter settings, strange bleeding saturation in some shots. Crazy costumes. Seriously one of the strangest films I\u2019ve ever seen and my favorite films are strange/weird ones. If you\u2019ve ever seen what you\u2019re thinking of on a \u201cbest weird movies\u201d or \u201cyou\u2019ve never seen this!\u201d list, that\u2019s NOT it. I don\u2019t think this film even has a cult following of ten people. It\u2019s an actual rare gem. Have been looking through selections at 366 Weird Movies and not found it yet (btw the way most of those titles are exactly the kind of not-actually-rare movies this film is definitely not).",
    "wikipedia_id":"16742289",
