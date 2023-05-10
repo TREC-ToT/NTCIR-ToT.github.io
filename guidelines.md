@@ -26,7 +26,7 @@ Participating groups will be given the following resources for training, develop
 
 ### Corpora
 
-**Wikipedia Corpus:** Subset of Wikipedia pages directly or indirectly associated with (relevant sub-classes of) the "audiovisual works" category (231,852 pages). This corpus contains the relevant movie for all TOT queries in the training, development, and test sets described below. An [example document](#example-document) is described below. Each page also has the following fields associated with it, which participants can utilize, say, to augment data: 
+**Wikipedia Corpus:** Subset of Wikipedia pages directly or indirectly associated with (relevant sub-classes of) the "audiovisual works" category (231,852 pages). This corpus contains the relevant movie for all TOT queries in the training, development, and test sets described below. Each page also has the following fields associated with it, which participants can utilize, say, to augment data: 
 - **Wikidata:** Wikidata IDs for all pages in the Wikipedia Corpus.
 - **IMDb:** Internet Movie Database (IMDb) IDs for pages in the Wikipedia Corpus. Note: Some pages in the Wikipedia Corpus do not have an IMDb ID.
 
@@ -39,6 +39,8 @@ Each document in the corpus will be described by the following fields:
 - **sections**: A dictionary containing extracted top-level headings and corresponding parsed text.
 - **infoboxes**: A list of dictionaries, each containing parsed infoboxes.
 - **page_source**: Wikepedia page source, in <a href="https://en.wikipedia.org/wiki/Help:Wikitext" target="_blank">WikiText</a> format. Participants can use this for additional processing—e.g., using a <a href="https://www.mediawiki.org/wiki/Alternative_parsers" target="_blank">parser</a> like <a href="https://mwparserfromhell.readthedocs.io/en/latest/" target="_blank">mwparserfromhell</a>.
+
+An example document is described below. 
 
 ### Example Document
 
@@ -106,7 +108,7 @@ Each document in the corpus will be described by the following fields:
 
 ### Queries
 
-Queries (or topics in TREC lingo) are sourced from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a>. Participating groups will be given a JSONL file consisting of a random sample of 150 MS-TOT queries each for training, development, and test. An [example query](#example-query) is described below. Corresponding  to these queries, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty).
+Queries (or topics in TREC lingo) are sourced from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a>. Participating groups will be given a JSONL file consisting of a random sample of 150 MS-TOT queries each for training, development, and test. An example query is described below. Corresponding  to these queries, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty).
 
 
 ### Example query
