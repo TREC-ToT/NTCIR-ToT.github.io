@@ -8,7 +8,7 @@ layout: default
 # Guidelines
 
 ## Timelines (tentative)
-* April: Release corpus and training queries
+* May: Release corpus and training queries
 * July: Release test queries
 * Early August: Deadline for submitting runs
 
@@ -42,7 +42,7 @@ Each document in the corpus will be described by the following fields:
 
 ### Example Document
 
-<details><summary>Document</summary>
+<details><summary>Click here to see Document</summary>
 
 ```json
 {% raw %}
@@ -119,7 +119,7 @@ Queries (or topics in TREC lingo) are sourced from two distinct sources: the <a 
 
 **Note 2:**  Only a single sentence annotation is shown in the example below
 
-<details><summary>Query</summary>
+<details><summary>Click here to see Query</summary>
 
 ```json
 {% raw %}
