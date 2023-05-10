@@ -42,7 +42,7 @@ Each document in the corpus will be described by the following fields:
 
 An example document is described below. 
 
-### Example Document
+#### Example Document
 
 <details><summary>Click here to see Document</summary>
 
@@ -111,7 +111,7 @@ An example document is described below.
 Queries (or topics in TREC lingo) are sourced from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a>. Participating groups will be given a JSONL file consisting of a random sample of 150 MS-TOT queries each for training, development, and test. An example query is described below. Corresponding  to these queries, sentence-level annotations will also be distributed. Participating groups are encouraged to leverage these codes however they want. This might include treating sentences associated with specific codes differently (e.g., ignoring or down-weighing sentences that convey uncertainty).
 
 
-### Example query
+#### Example query
 
 **Note:**  Only a single sentence annotation is shown in the example below
 
