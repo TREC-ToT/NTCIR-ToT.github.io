@@ -44,8 +44,6 @@ An example document is described below.
 
 #### Example Document
 
-<details><summary>Click here to see Document</summary>
-
 ```json
 {
    "page_title":"Actrius",
@@ -100,7 +98,6 @@ An example document is described below.
 }
 ```
 
-</details>
 
 
 ### Queries
@@ -111,8 +108,6 @@ Queries (or topics in TREC lingo) are sourced from the <a href="https://github.c
 #### Example query
 
 **Note:**  Only a single sentence annotation is shown in the example below
-
-<details><summary>Click here to see Query</summary>
 
 ```json
 {% raw %}
@@ -176,7 +171,6 @@ Queries (or topics in TREC lingo) are sourced from the <a href="https://github.c
       }
    ]
 }
-{% endraw %}
 ```
 
 </details>
