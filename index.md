@@ -37,6 +37,8 @@ The 2023 TREC ToT Track will focus on movie identification—a task that is broa
 
 **Futuristic.** Novel task. Emergent search interfaces, such as conversational search, may make it easier to express such information needs in the near-future.
 
+See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> for more ideas about motivations and challenges.
+
 # Organizers
 
 <p>
