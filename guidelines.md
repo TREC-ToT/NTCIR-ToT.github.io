@@ -22,7 +22,17 @@ In terms of input and output, the movie identification task is relatively straig
 
 ## Datasets
 
-Participating groups will be given the following resources for training, development, and testing.
+Data can be downloaded using the links below. Participants can download the files in a single zip file (TREC-ToT.zip) or download each file (corpus.jsonl.zip, train.zip, dev.zip) separately. See [Corpora](#corpora) and [Queries](#queries) for a description of the files (train/dev folders also include qrel files in the TREC format). 
+
+| Description                                   | Link             | MD5 Hash |
+|-----------------------------------------------|------------------|----------|
+| corpus, train and dev set (single zip) | [TREC-ToT.zip](https://surfdrive.surf.nl/files/index.php/s/FaEK4xc6Xp2JcAJ/download)     |   `f84fe82cb80e3ee1072576c8d6c4a417`       |
+| corpus (JSONL)                           | [corpus.jsonl.zip](https://surfdrive.surf.nl/files/index.php/s/sWLysSXtFRLz8R1/download) |  `3bdf2941d256c88d1fbfd9dbc483f43d`        |
+| train queries (JSONL) & qrel.txt                      | [train.zip](https://surfdrive.surf.nl/files/index.php/s/KJFwx32qMT7Tinh/download)        |  `f5e7e07e409f214b5a67af7e23b231c7`        |
+| dev queries (JSONL) & qrel.txt                        | [dev.zip](https://surfdrive.surf.nl/files/index.php/s/F1mUvAW06gn7OdP/download)          |  `40ef6eace079a40f23237005db1b0f1a` |
+| test queries & qrel.txt                       | Release: July                | -        |
+
+
 
 ### Corpora
 
