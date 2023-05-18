@@ -7,10 +7,10 @@ layout: default
 
 # Guidelines
 
-## Timelines (tentative)
-* May: Release corpus and training queries
-* July: Release test queries
-* Early August: Deadline for submitting runs
+## Timelines
+* **May 18th:** Release corpus and training queries
+* **July:** Release test queries
+* **August 31st:** Deadline for submitting runs
 
 ## Registration
 
@@ -185,6 +185,55 @@ Queries (or topics in TREC lingo) are sourced from the <a href="https://github.c
 ```
 
 </details>
+
+#### Sentence annotations codes
+
+- **movie:** the sentence describes something about the movie itself.  Sub-codes under this category are NOT mutually exclusive (i.e., sentences can be associated with zero, one, or several of the following sub-codes).
+  - **category:**   describes the movie’s category (e.g., movie, tv movie, miniseries, etc.)
+  - **character:**   describes a character in the movie.
+  - **genre_audience:**  describes the movie’s target audience (e.g., for kids).
+  - **genre_traditional_tone:**  describes the movie’s genre or tone (e.g., romantic comedy).
+  - **location_specific:** describes a specific location in the movie (e.g., the boy lives with his mom in Arizona).
+  - **location_type:**  describes a type of location in the movie (e.g., a European castle).
+  - **music_compare:**  describes the movie’s soundtrack (e.g., lots of electronic music). 
+  - **music_specific:**  describes a song in the movie (e.g., the main character sings “Looking for the Heart of Saturday Night”).
+  - **negation:** uses negation to describe aspects of the movie in negative terms (e.g., not scary, but a bit weird). 
+  - **object:**  describes a tangible object in the movie (e.g., they’re in a car that almost crashes into a beast).
+  - **origin_actor:**  describes the nationality or ethnicity of actors/actresses in the movie.
+  - **origin_language:**  describes languages spoken in the movie.
+  - **origin_movie:**  describes the movie’s region of origin.
+  - **person_fictional:**  references a fictional character (e.g., the main character looks like Indiana Jones).
+  - **person_real:** references a real person (e.g., the main character looks like Harrison Ford).
+  - **plot:** describes the movie’s plot.
+  - **production_audio:** describes characteristics of the audio (e.g., badly dubbed).
+  - **production_camera_angle:** describes camera movements (e.g., the camera suddenly cuts to the monster under the bed)
+  - **production_visual:** describes the movie’s visual production (e.g., black and white).
+  - **quote:** describes a quote from the movie.
+  - **release_date:** describes the movie’s release date.
+  - **scene:** describes a scene from the movie.
+  - **timeframe_plural:** describes the passage of time in the movie (e.g., decades later, the house is believed to be haunted).
+  - **timeframe_singular:** describes a time period in the movie (e.g., set in the 1920’s).
+
+- **context:** the sentence describes something about the context in which the movie was seen. Sub-codes under this category are NOT mutually exclusive (i.e., sentences can be associated with zero, one, or several of the following sub-codes).
+  - **cross_media:** describes exposure to the movie through other media (e.g., trailer, DVD cover, poster, etc.)
+  - **physical_medium:** describes the physical medium through which the movie was seen (e.g., on late-night TV).
+  - **physical_user_location:** describes the physical location in which the movie was seen (e.g., I watched it in film class).
+  - **situational_count:** describes the number of times the movie was seen (e.g., I watched the series once a week).
+  - **situational_evidence:** describes evidence used to recall contextual information (e.g., I watched it around 2006 because I watched it alongside Hard Candy).
+  - **situational_witness:** describes other people who watched the movie (e.g., with my 6-year old nephew).
+  - **temporal:** describes when the movie was seen (e.g., I rented it in the early 2000’s).
+
+- **prevous_search:** the sentence describes previous attempts to re-find the movie.
+
+- **opinion:** the sentence describes an opinion about some aspect of the movie.
+
+- **emotion:** the sentence describes an emotional response to the movie.
+
+- **hedging:** the sentence includes mentions of uncertainty (e.g., I think it was released in the early 2000’s).
+
+- **social:** the sentence includes a social nicety (e.g., thanks in advance!).
+
+- **comparison_relative:** the sentence describes something in relative terms (e.g., the movie stars someone who looks like Brad Pitt) versus absolute terms (e.g., the movie stars Brad Pitt).
 
 ### Use of external information
 
