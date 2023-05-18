@@ -213,7 +213,6 @@ Queries (or topics in TREC lingo) are sourced from the <a href="https://github.c
   - **scene:** describes a scene from the movie.
   - **timeframe_plural:** describes the passage of time in the movie (e.g., decades later, the house is believed to be haunted).
   - **timeframe_singular:** describes a time period in the movie (e.g., set in the 1920’s).
-
 - **context:** the sentence describes something about the context in which the movie was seen. Sub-codes under this category are NOT mutually exclusive (i.e., sentences can be associated with zero, one, or several of the following sub-codes).
   - **cross_media:** describes exposure to the movie through other media (e.g., trailer, DVD cover, poster, etc.)
   - **physical_medium:** describes the physical medium through which the movie was seen (e.g., on late-night TV).
@@ -222,17 +221,11 @@ Queries (or topics in TREC lingo) are sourced from the <a href="https://github.c
   - **situational_evidence:** describes evidence used to recall contextual information (e.g., I watched it around 2006 because I watched it alongside Hard Candy).
   - **situational_witness:** describes other people who watched the movie (e.g., with my 6-year old nephew).
   - **temporal:** describes when the movie was seen (e.g., I rented it in the early 2000’s).
-
 - **prevous_search:** the sentence describes previous attempts to re-find the movie.
-
 - **opinion:** the sentence describes an opinion about some aspect of the movie.
-
 - **emotion:** the sentence describes an emotional response to the movie.
-
 - **hedging:** the sentence includes mentions of uncertainty (e.g., I think it was released in the early 2000’s).
-
 - **social:** the sentence includes a social nicety (e.g., thanks in advance!).
-
 - **comparison_relative:** the sentence describes something in relative terms (e.g., the movie stars someone who looks like Brad Pitt) versus absolute terms (e.g., the movie stars Brad Pitt).
 
 ### Use of external information
