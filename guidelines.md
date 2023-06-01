@@ -7,7 +7,7 @@ layout: default
 
 # Guidelines
 
-## Key dates
+## Important dates
 * **May 18th:** Release corpus and training queries
 * **July 24th:** Release test queries
 * **August 31st:** Deadline for submitting runs
