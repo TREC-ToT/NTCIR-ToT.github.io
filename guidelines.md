@@ -24,21 +24,19 @@ In terms of input and output, the movie identification task is relatively straig
 
 Data can be downloaded using the links below. Participants can download the files in a single zip file (TREC-ToT.zip) or download each file (corpus.jsonl.zip, train.zip, dev.zip) separately. See [Corpora](#corpora) and [Queries](#queries) for a description of the files (train/dev folders also include qrel files in the TREC format). 
 
-| Description                                   | Link             | MD5 Hash |
-|-----------------------------------------------|------------------|----------|
-| corpus, train and dev set (single zip) | [TREC-ToT.zip](https://surfdrive.surf.nl/files/index.php/s/FaEK4xc6Xp2JcAJ/download)     |   `f84fe82cb80e3ee1072576c8d6c4a417`       |
-| corpus (JSONL)                           | [corpus.jsonl.zip](https://surfdrive.surf.nl/files/index.php/s/sWLysSXtFRLz8R1/download) |  `3bdf2941d256c88d1fbfd9dbc483f43d`        |
-| train queries (JSONL) & qrel.txt                      | [train.zip](https://surfdrive.surf.nl/files/index.php/s/KJFwx32qMT7Tinh/download)        |  `f5e7e07e409f214b5a67af7e23b231c7`        |
-| dev queries (JSONL) & qrel.txt                        | [dev.zip](https://surfdrive.surf.nl/files/index.php/s/F1mUvAW06gn7OdP/download)          |  `40ef6eace079a40f23237005db1b0f1a` |
-| test queries & qrel.txt                       | Release: July                | -        |
-
+| Description                                   | Link             | MD5 Hash | # entries| 
+|-----------------------------------------------|------------------|----------|----------|
+| corpus, train and dev set (single zip) | [TREC-ToT.zip](https://surfdrive.surf.nl/files/index.php/s/FaEK4xc6Xp2JcAJ/download)     |   `f84fe82cb80e3ee1072576c8d6c4a417`       | - |
+| corpus (JSONL)                           | [corpus.jsonl.zip](https://surfdrive.surf.nl/files/index.php/s/sWLysSXtFRLz8R1/download) |  `3bdf2941d256c88d1fbfd9dbc483f43d`        | 231618 |
+| train queries (JSONL) & qrel.txt                      | [train.zip](https://surfdrive.surf.nl/files/index.php/s/KJFwx32qMT7Tinh/download)        |  `f5e7e07e409f214b5a67af7e23b231c7`        | 150 |
+| dev queries (JSONL) & qrel.txt                        | [dev.zip](https://surfdrive.surf.nl/files/index.php/s/F1mUvAW06gn7OdP/download)          |  `40ef6eace079a40f23237005db1b0f1a` | 150 |
+| test queries & qrel.txt                       | Release: July                | -        | 150 |
+| Mapping: Wikipedia Page to IMDb ID | [wikipage_id_to_imdb.json.zip](https://surfdrive.surf.nl/files/index.php/s/6C1ih8E2SMcQyXR/download) | `c837316e9374b577974dc14b12a15a2c` | 190370 |
 
 
 ### Corpora
 
-**Wikipedia Corpus:** Subset of Wikipedia pages directly or indirectly associated with (relevant sub-classes of) the "audiovisual works" category (231,852 pages). This corpus contains the relevant movie for all TOT queries in the training, development, and test sets described below. Each page also has the following fields associated with it, which participants can utilize, say, to augment data: 
-- **Wikidata:** Wikidata IDs for all pages in the Wikipedia Corpus.
-- **IMDb:** Internet Movie Database (IMDb) IDs for pages in the Wikipedia Corpus. Note: Some pages in the Wikipedia Corpus do not have an IMDb ID.
+**Wikipedia Corpus:** Subset of Wikipedia pages directly or indirectly associated with (relevant sub-classes of) the "audiovisual works" category (231,852 pages). This corpus contains the relevant movie for all TOT queries in the training, development, and test sets described below. In addition to the fields described below, participants can utilize [this file](https://surfdrive.surf.nl/files/index.php/s/6C1ih8E2SMcQyXR) to obtain `doc_id` to IMDb identifier(s). Note that only some (190370 of 231618) pages have an associated ID. 
 
 Each document in the corpus will be described by the following fields:
 - **doc_id**: The primary identifier, the Wikipedia page ID.
