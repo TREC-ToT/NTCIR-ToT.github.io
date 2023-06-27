@@ -240,6 +240,18 @@ This could include an external corpus such as TMDB or a pretrained model (e.g. w
  
 The emerging practices of pretraining large language models on web-scale datasets and community sharing of these pretrained models for downstream training / model development creates challenges in tracking what training data have been used for particular run submissions. Given that our test queries are sampled from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> that has been publicly available online since 2021, there is a possibility that this data may have been used for training models that are employed in submitted runs. To ensure that we get robust scientific conclusions and insights from this year's track, we are requesting all participants to document *all* training data that were employed in the preparation of a given run to the best of your knowledge (including any data used for pretraining models that you are building on top of). In addition, we are also requesting participants to declare if they are 100% confident that no data from <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a> or <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a> was used for training. We recognize that not all pretrained models publicly document their training data in details. So, please mark that declaration to be true *only* if you are 100% confident about all training data used in preparation of your run and can guarantee that it does not include any data from the sources mentioned. We do not discourage submissions where there may be some uncertainty about the training data but we want to be aware of this at the time of analyzing the evaluated results.
 
+## Baselines
+
+We've released two baselines, BM25 and a dense retriever, in [this repository](https://github.com/TREC-ToT/bench/). A summary of baseline results, along with corresonding run files are provided below.:
+
+
+| Benchmark            | Runfiles | Dev-DCG | Dev-Success@1000 | Dev-MRR  |
+|----------------------|----------|----------|-----------------|-------|
+| [BM25](https://github.com/TREC-ToT/bench/blob/main/BM25.md) (k1=0.8, b=1.0) |  [train](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/train.run), [dev](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/dev.run)     | 0.1314 |    0.4067 | 0.0881 |
+| [Dense Retrieval (SBERT)](https://github.com/TREC-ToT/bench/blob/main/DENSE.md) (Distilbert) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/dev.run)  | 0.1627 |  0.6600  |  0.0743 |
+
+
+
 ## Submission and evaluation
 
 We will be following a similar format as the ones used by most TREC submissions, which is repeated below. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
