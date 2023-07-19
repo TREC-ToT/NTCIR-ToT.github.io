@@ -242,13 +242,14 @@ The emerging practices of pretraining large language models on web-scale dataset
 
 ## Baselines
 
-We've released two baselines, BM25 and a dense retriever, in [this repository](https://github.com/TREC-ToT/bench/). A summary of baseline results, along with corresonding run files are provided below.:
+We've released three baselines, BM25, a dense retriever and GPT-4, in [this repository](https://github.com/TREC-ToT/bench/). A summary of baseline results, along with corresonding run files are provided below.:
 
 
 | Benchmark            | Runfiles | Dev-DCG | Dev-Success@1000 | Dev-MRR  |
 |----------------------|----------|----------|-----------------|-------|
 | [BM25](https://github.com/TREC-ToT/bench/blob/main/BM25.md) (k1=0.8, b=1.0) |  [train](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/train.run), [dev](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/dev.run)     | 0.1314 |    0.4067 | 0.0881 |
 | [Dense Retrieval (SBERT)](https://github.com/TREC-ToT/bench/blob/main/DENSE.md) (Distilbert) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/dev.run)  | 0.1627 |  0.6600  |  0.0743 |
+| [GPT-4](https://github.com/TREC-ToT/bench/blob/main/GPT4.md) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/dev.run)  |  0.2407 | 0.3200 | 0.2180 |
 
 
 
