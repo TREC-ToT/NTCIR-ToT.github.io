@@ -30,7 +30,7 @@ Data can be downloaded using the links below. Participants can download the file
 | corpus (JSONL)                           | [corpus.jsonl.zip](https://surfdrive.surf.nl/files/index.php/s/sWLysSXtFRLz8R1/download) |  `3bdf2941d256c88d1fbfd9dbc483f43d`        | 231618 |
 | train queries (JSONL) & qrel.txt                      | [train.zip](https://surfdrive.surf.nl/files/index.php/s/KJFwx32qMT7Tinh/download)        |  `f5e7e07e409f214b5a67af7e23b231c7`        | 150 |
 | dev queries (JSONL) & qrel.txt                        | [dev.zip](https://surfdrive.surf.nl/files/index.php/s/F1mUvAW06gn7OdP/download)          |  `40ef6eace079a40f23237005db1b0f1a` | 150 |
-| test queries & qrel.txt                       | Release: July                | -        | 150 |
+| test queries (JSONL)    | [test.zip](https://surfdrive.surf.nl/files/index.php/s/qQCQ1iRZvj712kv/download) | `756b77a2725f0960defb3a9b12d95334`        | 150 |
 | Mapping: Wikipedia Page to IMDb ID | [wikipage_id_to_imdb.json.zip](https://surfdrive.surf.nl/files/index.php/s/6C1ih8E2SMcQyXR/download) | `c837316e9374b577974dc14b12a15a2c` | 190370 |
 
 
@@ -247,9 +247,9 @@ We've released three baselines, BM25, a dense retriever and GPT-4, in [this repo
 
 | Benchmark            | Runfiles | Dev-DCG | Dev-Success@1000 | Dev-MRR  |
 |----------------------|----------|----------|-----------------|-------|
-| [BM25](https://github.com/TREC-ToT/bench/blob/main/BM25.md) (k1=0.8, b=1.0) |  [train](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/train.run), [dev](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/dev.run)     | 0.1314 |    0.4067 | 0.0881 |
-| [Dense Retrieval (SBERT)](https://github.com/TREC-ToT/bench/blob/main/DENSE.md) (Distilbert) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/dev.run)  | 0.1627 |  0.6600  |  0.0743 |
-| [GPT-4](https://github.com/TREC-ToT/bench/blob/main/GPT4.md) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/dev.run)  |  0.2407 | 0.3200 | 0.2180 |
+| [BM25](https://github.com/TREC-ToT/bench/blob/main/BM25.md) (k1=0.8, b=1.0) |  [train](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/train.run), [dev](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/dev.run), [test](https://raw.githubusercontent.com/TREC-ToT/bench/main/runs/bm25/test.run)     | 0.1314 |    0.4067 | 0.0881 |
+| [Dense Retrieval (SBERT)](https://github.com/TREC-ToT/bench/blob/main/DENSE.md) (Distilbert) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/dev.run), [test](https://github.com/TREC-ToT/bench/raw/main/runs/distilbert/test.run)  | 0.1627 |  0.6600  |  0.0743 |
+| [GPT-4](https://github.com/TREC-ToT/bench/blob/main/GPT4.md) |  [train](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/train.run), [dev](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/dev.run), [test](https://github.com/TREC-ToT/bench/raw/main/runs/gpt4/test.run)  |  0.2407 | 0.3200 | 0.2180 |
 
 
 
