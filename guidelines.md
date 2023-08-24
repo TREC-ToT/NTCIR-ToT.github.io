@@ -255,7 +255,7 @@ We've released three baselines, BM25, a dense retriever and GPT-4, in [this repo
 
 ## Submission and evaluation
 
-Submission form: <a href="https://ir.nist.gov/trecsubmit/tot.html" target="_blank">https://ir.nist.gov/trecsubmit/tot.html</a>.
+**Submission form:** <a href="https://ir.nist.gov/trecsubmit/tot.html" target="_blank">https://ir.nist.gov/trecsubmit/tot.html</a>.
 
 We will be following a similar format as the ones used by most TREC submissions, which is repeated below. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
 
