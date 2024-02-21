@@ -12,7 +12,8 @@ TBD.
 
 ## Registration
 
-Organizations wishing to participate in TREC 2024 should respond to this call for participation by submitting an application. Participants in previous TRECs who wish to participate in TREC 2024 must submit a new application.
+Organizations wishing to participate in TREC 2024 should submit an application.
+Participants in previous TRECs who wish to participate in TREC 2024 must submit a new application.
 
 To apply, use the <a href="http://ir.nist.gov/evalbase" target="_blank">new Evalbase web app</a>.
 First you will need to create an account and profile, then you can register a participating organization from the main Evalbase page.
