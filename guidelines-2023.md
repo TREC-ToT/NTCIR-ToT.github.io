@@ -7,7 +7,7 @@ layout: default
 
 # TREC 2023 Tip-of-the-Tongue (ToT) Track
 
-**Overview paper:** (Coming soon.)
+**Overview paper:** <a href="https://trec.nist.gov/pubs/trec32/papers/Overview_tot.pdf" target="_blank">https://trec.nist.gov/pubs/trec32/papers/Overview_tot.pdf</a>
 
 **Note:** You are viewing the guidelines for the 2023 edition of the TREC ToT track.
 Please see the <a href="guidelines">latest guidelines</a> for the upcoming / latest edition of the track.
