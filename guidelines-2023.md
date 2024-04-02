@@ -8,8 +8,8 @@ layout: default
 # TREC 2023 Tip-of-the-Tongue (ToT) Track
 
 **Overview paper:** <a href="https://trec.nist.gov/pubs/trec32/papers/Overview_tot.pdf" target="_blank">trec.nist.gov/pubs/trec32/papers/Overview_tot.pdf</a></br>
-**Overview presentation:** <a href="https://docs.google.com/presentation/d/1gMToQywybkU3ajdF4z6L9FhkOkXh5XdPc3paaZAbvlQ">docs.google.com/presentation/d/1gMToQywybkU3ajdF4...</a></br>
-**Track proceedings:** <a href="https://trec.nist.gov/pubs/trec32/xref.html#tot">trec.nist.gov/pubs/trec32/xref.html#tot</a>
+**Overview presentation:** <a href="https://docs.google.com/presentation/d/1gMToQywybkU3ajdF4z6L9FhkOkXh5XdPc3paaZAbvlQ" target="_blank">docs.google.com/presentation/d/1gMToQywybkU3ajdF4...</a></br>
+**Track proceedings:** <a href="https://trec.nist.gov/pubs/trec32/xref.html#tot" target="_blank">trec.nist.gov/pubs/trec32/xref.html#tot</a>
 
 **Note:** You are viewing the guidelines for the 2023 edition of the TREC ToT track.
 Please see the <a href="guidelines">latest guidelines</a> for the upcoming / latest edition of the track.
