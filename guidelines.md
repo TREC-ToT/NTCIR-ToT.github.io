@@ -8,7 +8,9 @@ layout: default
 # Guidelines
 
 ## Important dates
-TBD.
+* **May 16th:** Release corpus and training queries
+* **August (tentative):** Release test queries
+* **September (tentative):** Deadline for submitting runs
 
 ## Registration
 
