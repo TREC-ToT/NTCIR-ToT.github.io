@@ -24,7 +24,11 @@ Any questions about conference participation should be sent to the general TREC 
 
 ## Task definition
 
-In terms of input and output, the movie identification task is relatively straightforward—given an input TOT request, output a ranked list of movies.  Each movie must be identified by its Wikipedia page id and the correct movie should be ranked as high as possible.  For each query, runs should return a ranked list of 1000 Wikipedia page ids.  Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted cumulative gain, reciprocal rank, and success@k.
+In terms of input and output, the ToT known-item identification task is relatively straightforward—given an input TOT request, output a ranked list of items.
+This year, in addition to movies we are adding two new domains: Landmarks and Celebrities to the track.
+So, each item can be either a movie, a landmark, or a celebrity and must be identified by its Wikipedia page id and the correct item should be ranked as high as possible.
+For each query, runs should return a ranked list of 1000 Wikipedia page ids.
+Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted cumulative gain, reciprocal rank, and success@k.
 
 ## Datasets
 
