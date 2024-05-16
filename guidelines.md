@@ -25,7 +25,7 @@ Any questions about conference participation should be sent to the general TREC 
 ## Task definition
 
 In terms of input and output, the ToT known-item identification task is relatively straightforward—given an input TOT request, output a ranked list of items.
-This year, in addition to movies we are adding two new domains: Landmarks and Celebrities to the track.
+This year, in addition to Movies we are adding two new domains: Landmarks and Celebrities to the track.
 So, each item can be either a movie, a landmark, or a celebrity and must be identified by its Wikipedia page id and the correct item should be ranked as high as possible.
 For each query, runs should return a ranked list of 1000 Wikipedia page ids.
 Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted cumulative gain, reciprocal rank, and success@k.
@@ -40,9 +40,10 @@ This year’s track will have a larger corpus to account for multiple domains. T
 | corpus (JSONL)                           | [corpus.jsonl.zip](https://zenodo.org/records/11185090/files/corpus.jsonl.zip?download=1) | 3,185,450 |
 | train queries (JSONL) & qrel.txt                      | [train.zip](https://zenodo.org/records/11185090/files/train-2024.zip?download=1) | 150 |
 | dev1 queries (JSONL) & qrel.txt ('23 dev set)  | [dev1.zip](https://zenodo.org/records/11185090/files/dev1-2024.zip?download=1)           | 150 |
-| dev queries (JSONL) & qrel.txt ('23 test set) | [dev2.zip](https://zenodo.org/records/11185090/files/dev2-2024.zip?download=1)           | 150 |
+| dev2 queries (JSONL) & qrel.txt ('23 test set) | [dev2.zip](https://zenodo.org/records/11185090/files/dev2-2024.zip?download=1)           | 150 |
 | test queries (JSONL)    | TBD. | TBD. |
 
+Note: In our train and dev sets this year all queries come only from the movie domain while our test queries will include a combination of movies, landmarks, and celebrities.
 
 ### Corpora
 
@@ -112,7 +113,7 @@ An example document is described below.
 
 ### Queries
 
-Queries (or topics in TREC lingo) are sourced from the MS-TOT dataset. Participating groups will be given a JSONL file consisting of a random sample of 150 MS-TOT queries each for training, two development sets, and the test set. There are two development sets, dev1 (the previous year’s dev set) and dev2 (previous year’s test set).  The query format for this year is different from last year's format, with two fields: **query_id** and **query**. An example query is described below.
+Participating groups will be given a JSONL file consisting of a random sample of queries (or topics in TREC lingo) each for training, two development sets, and the test set. There are two development sets, dev1 (the previous year’s dev set) and dev2 (previous year’s test set).  The query format for this year is different from last year's format, with two fields: **query_id** and **query**. An example query is described below.
 
 ```json
 {
@@ -127,7 +128,6 @@ Queries (or topics in TREC lingo) are sourced from the MS-TOT dataset. Participa
 You are generally allowed to use external information while developing your runs. When you submit your runs, please fill in a form listing what resources you used.
 This could include an external corpus such as TMDB or a pretrained model (e.g. word embeddings, BERT). Additionally,
 - Participating groups  are **PERMITTED** and encouraged to gather movie data from multiple sources. We are distributing identifiers for several data sources i.e., Wikipedia, Wikidata and IMDb (if available). Groups are encouraged to explore other resources on their own. Pages from different sources can often be resolved using the IMDB ID (e.g., Wikipedia pages often contain the movie’s IMDB ID).
-- Participating groups are **PERMITTED** and encouraged to leverage the qualitative codes associated with the MS-TOT train, dev, and test sets. When submitting a run, groups may be asked to explain whether and how the qualitative codes were used during training and/or testing.
 - Participating groups are **PROHIBITED** from using any data from the following websites that are not already included in the train/dev sets described above. **If you do so, you will be training and/or hyperparameter tuning using test data.**
     - <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a>
     - <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a>
