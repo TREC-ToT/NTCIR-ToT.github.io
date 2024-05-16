@@ -138,12 +138,12 @@ The emerging practices of pretraining large language models on web-scale dataset
 
 ## Baselines
 
-We’ve released two baselines, BM2 and  a dense retriever, in [this](https://github.com/TREC-ToT/bench/) repository. Additional baselines may be released subsequently. A summary of baseline results, along with corresponding run files are provided below. The results correspond to the dev2 split:
+We’ve released two baselines, BM2 and  a dense retriever, in <a href="https://github.com/TREC-ToT/bench/" target="_blank">this</a> repository. Additional baselines may be released subsequently. A summary of baseline results, along with corresponding run files are provided below. The results correspond to the dev2 split:
 
 | Benchmark            | Runfiles | NDCG@10 | NDCG@1000 |  MRR@1000 |R@1000  |
 |----------------------|----------|----------|-----------------|-------|----|
-| [BM25](https://github.com/TREC-ToT/bench/blob/main/BM25.md) (k1=1, b=1.0) |  [runs](https://github.com/TREC-ToT/bench/tree/main/runs/bm25) | 0.0657  |0.1033| 0.0590 | 0.3600|
-| [Dense Retrieval (SBERT)](https://github.com/TREC-ToT/bench/blob/main/DENSE.md) (DR) |  [runs](https://github.com/TREC-ToT/bench/tree/main/runs/DR) | 0.1040 | 0.1665   | 0.0901  | 0.5600| 
+| <a href="https://github.com/TREC-ToT/bench/blob/main/BM25.md" target="_blank">BM25</a> (k1=1, b=1.0) |  <a href="https://github.com/TREC-ToT/bench/tree/main/runs/bm25" target="_blank">runs</a> | 0.0657  |0.1033| 0.0590 | 0.3600|
+| <a href="https://github.com/TREC-ToT/bench/blob/main/DENSE.md" target="_blank">Dense Retrieval (SBERT)</a> (DR) |  <a href="https://github.com/TREC-ToT/bench/tree/main/runs/DR" target="_blank">runs</a> | 0.1040 | 0.1665   | 0.0901  | 0.5600| 
 
 
 
