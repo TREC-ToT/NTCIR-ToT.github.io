@@ -9,7 +9,7 @@ layout: default
 
 ## Important dates
 * **May 16th:** Release corpus and training queries
-* **August 23rd:** Release test queries
+* **August 26th:** Release test queries
 * **September 23rd:** Deadline for submitting runs
 
 ## Registration
