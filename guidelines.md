@@ -41,7 +41,7 @@ This year’s track will have a larger corpus to account for multiple domains. T
 | train queries (JSONL) & qrel.txt                      | [train.zip](https://zenodo.org/records/11185090/files/train-2024.zip?download=1) | 150 |
 | dev1 queries (JSONL) & qrel.txt ('23 dev set)  | [dev1.zip](https://zenodo.org/records/11185090/files/dev1-2024.zip?download=1)           | 150 |
 | dev2 queries (JSONL) & qrel.txt ('23 test set) | [dev2.zip](https://zenodo.org/records/11185090/files/dev2-2024.zip?download=1)           | 150 |
-| test queries (JSONL)    | TBD. | TBD. |
+| test queries (JSONL)    | [test-2024.zip](https://zenodo.org/records/13370657/files/test-2024.zip?download=1) | 600 |
 
 Note: In our train and dev sets this year all queries come only from the movie domain while our test queries will include a combination of movies, landmarks, and celebrities.
 
