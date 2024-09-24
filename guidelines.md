@@ -7,10 +7,12 @@ layout: default
 
 # Guidelines
 
+**IMPORTANT ANNOUNCEMENT**: The deadline for submitting runs have been **extended to October 4th**.
+
 ## Important dates
 * **May 16th:** Release corpus and training queries
 * **August 26th:** Release test queries
-* **September 23rd:** Deadline for submitting runs
+* **October 4th:** Deadline for submitting runs (**Extended**, previously September 23rd)
 
 ## Registration
 
