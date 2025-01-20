@@ -59,15 +59,34 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
 <p>
 <div style="width: 100%; overflow: hidden;">
   <div style="float: left;">
-    <img src="img/bhargav.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+    <img src="img/diaz.jpg" alt="Avatar" style="height:130px;border-radius:50%">
   </div>
   <div style="margin-left: 200px;">
-    <b>Samarth Bhargav</b>
-    <br/>University of Amsterdam
-    <br/>Amsterdam, The Netherlands
+    <b>Fernando Diaz</b>
+    <br/>Carnegie Mellon University and Google
+    <br/>Pennsylvania, United States
     <p>
-        <a href="http://samarthbhargav.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/samarthbhargav" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        <a href="https://841.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/841io.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@841io@sigmoid.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
+    </p>
+  </div>
+</div>
+</p>
+<p>
+<div style="width: 100%; overflow: hidden;">
+  <div style="float: left;">
+    <img src="img/diaz.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+  </div>
+  <div style="margin-left: 200px;">
+    <b>To Eun Kim</b>
+    <br/>Carnegie Mellon University
+    <br/>Pennsylvania, United States
+    <p>
+        <a href="https://kimdanny.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/teknology.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/TEKnologyy" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -83,25 +102,28 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <br/>Montreal, Canada
     <p>
         <a href="https://www.microsoft.com/en-us/research/people/bmitra/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/bmitra.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@bmitra" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
 </p>
+
+# Past organizers
+
 <p>
 <div style="width: 100%; overflow: hidden;">
   <div style="float: left;">
-    <img src="img/diaz.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+    <img src="img/bhargav.jpg" alt="Avatar" style="height:130px;border-radius:50%">
   </div>
   <div style="margin-left: 200px;">
-    <b>Fernando Diaz</b>
-    <br/>Google
-    <br/>Montreal, Canada
+    <b>Samarth Bhargav</b>
+    <br/>University of Amsterdam
+    <br/>Amsterdam, The Netherlands
     <p>
-        <a href="https://841.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@841io@sigmoid.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
+        <a href="http://samarthbhargav.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/samarthbhargav" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
