@@ -77,7 +77,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
 <p>
 <div style="width: 100%; overflow: hidden;">
   <div style="float: left;">
-    <img src="img/diaz.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+    <img src="img/kim.jpg" alt="Avatar" style="height:130px;border-radius:50%">
   </div>
   <div style="margin-left: 200px;">
     <b>To Eun Kim</b>
