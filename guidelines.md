@@ -7,8 +7,6 @@ layout: default
 
 # Guidelines
 
-**IMPORTANT ANNOUNCEMENT**: The deadline for submitting runs have been **extended to October 4th**.
-
 ## Important dates
 * **May (tentative):** Release corpus and training queries
 * **August (tentative):** Release test queries
