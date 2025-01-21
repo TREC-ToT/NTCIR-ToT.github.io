@@ -52,6 +52,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <br/>Chapel Hill, North Carolina, USA
     <p>
         <a href="https://ils.unc.edu/~jarguell/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jaime-arguello-5b417572/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -70,6 +71,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/841io.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@841io@sigmoid.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/fernando-diaz-b6b9023/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -104,6 +106,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
         <a href="https://kimdanny.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/teknology.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/TEKnologyy" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/danny-toeun-kim/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -122,6 +125,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/bmitra.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@bmitra" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/bhaskarmitra/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -141,6 +145,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <p>
         <a href="http://samarthbhargav.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/samarthbhargav" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/samarthbhargav/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -158,6 +163,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
         <a href="https://staff.fnwi.uva.nl/e.kanoulas/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ekanou" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@ekanou@mas.to" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ekanou/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
