@@ -5,6 +5,10 @@
 layout: default
 ---
 
+# TREC 2025 Tip-of-the-Tongue (ToT) Track
+
+Welcome to the guidelines for the upcoming 2025 edition of the TREC ToT track!
+
 # Guidelines
 
 ## Important dates
