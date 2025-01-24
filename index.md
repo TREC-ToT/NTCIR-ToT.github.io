@@ -79,23 +79,6 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
 <p>
 <div style="width: 100%; overflow: hidden;">
   <div style="float: left;">
-    <img src="img/frobe.jpg" alt="Avatar" style="height:130px;border-radius:50%">
-  </div>
-  <div style="margin-left: 200px;">
-    <b>Maik Fröbe</b>
-    <br/>Friedrich-Schiller-Universität Jena
-    <br/>Jena, Germany
-    <p>
-        <a href="https://www.fmi.uni-jena.de/4653/maik-froebe" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/maik-froebe.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@maik_froebe@idf.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
-    </p>
-  </div>
-</div>
-</p>
-<p>
-<div style="width: 100%; overflow: hidden;">
-  <div style="float: left;">
     <img src="img/kim.jpg" alt="Avatar" style="height:130px;border-radius:50%">
   </div>
   <div style="margin-left: 200px;">
@@ -107,6 +90,23 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/teknology.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/TEKnologyy" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/danny-toeun-kim/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
+    </p>
+  </div>
+</div>
+</p>
+<p>
+<div style="width: 100%; overflow: hidden;">
+  <div style="float: left;">
+    <img src="img/frobe.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+  </div>
+  <div style="margin-left: 200px;">
+    <b>Maik Fröbe</b>
+    <br/>Friedrich-Schiller-Universität Jena
+    <br/>Jena, Germany
+    <p>
+        <a href="https://www.fmi.uni-jena.de/4653/maik-froebe" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/maik-froebe.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@maik_froebe@idf.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
