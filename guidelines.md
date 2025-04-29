@@ -54,7 +54,9 @@ See [Corpora](#corpora) and [Queries](#queries) for a description of the files  
 | dev3 qrels                                    | [dev3-qrels.txt]()   |  |
 | test queries                                  | coming soon!         |  |
 
-Please note that the dev sets this year, which are based on dev and test sets from previous years of the track, may be missing some queries because the corresponding relevant documents are not in our corpus this year.
+Note: In our train / dev1 / dev2 sets all queries come only from the movie domain while dev3 queries include a combination of movies, landmarks, and celebrities.
+The test queries for this year can be from any arbitrary domain.
+Also, the dev sets this year, which are based on dev and test sets from previous years of the track, may be missing some queries because the corresponding relevant documents are not in our corpus this year.
 
 ## Submission and evaluation
 
