@@ -29,9 +29,16 @@ Any questions about conference participation should be sent to the general TREC 
 ## Task definition
 
 In terms of input and output, the ToT known-item identification task is relatively straightforward—given an input TOT request, output a ranked list of items.
+In previous years, our focus was on specific domains like movies, landmarks, and celebrities.
+This year, the retrieval task will be open domain.
+So, each item can be any entity and must be identified by its Wikipedia page id and the correct item should be ranked as high as possible.
+For each query, runs should return a ranked list of 1000 Wikipedia page ids.
+Runs will be evaluated using IR metrics that are appropriate for IR tasks with one relevant document, such as discounted cumulative gain, reciprocal rank, and success@k.
 
-More details coming soon!
-
+## Datasets
+This year’s track will have a larger corpus to account for the open domain setting.
+The format for the topics / documents have also been modified.
+The data is hosted in Zenodo and can be downloaded [here]().
 
 ## Submission and evaluation
 
