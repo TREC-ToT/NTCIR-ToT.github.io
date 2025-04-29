@@ -41,18 +41,18 @@ The format for the topics / documents have also been modified.
 The data is hosted in Zenodo and can be downloaded [here]().
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files  (train/dev folders also include qrel files in the TREC format).
 
-| Description                                   | Link             | # entries| 
-|-----------------------------------------------|------------------|----------|
-| corpus (JSONL)                                | [corpus.jsonl.zip]() |  |
-| train queries                                 | [train.jsonl]()      |  |
-| train qrels                                   | [train-qrels.txt]()  |  |
-| dev1 queries ('23 dev set)                    | [dev1.jsonl]()       |  |
-| dev1 qrels                                    | [dev1-qrels.txt]()   |  |
-| dev2 queries ('23 test set)                   | [dev2.jsonl]()       |  |
-| dev2 qrels                                    | [dev2-qrels.txt]()   |  |
-| dev3 queries ('24 test set)                   | [dev3.jsonl]()       |  |
-| dev3 qrels                                    | [dev3-qrels.txt]()   |  |
-| test queries                                  | coming soon!         |  |
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus.jsonl.zip]() |  |  |
+| train queries                                 | [train.jsonl]()      |  |  |
+| train qrels                                   | [train-qrels.txt]()  |  |  |
+| dev1 queries ('23 dev set)                    | [dev1.jsonl]()       |  |  |
+| dev1 qrels                                    | [dev1-qrels.txt]()   |  |  |
+| dev2 queries ('23 test set)                   | [dev2.jsonl]()       |  |  |
+| dev2 qrels                                    | [dev2-qrels.txt]()   |  |  |
+| dev3 queries ('24 test set)                   | [dev3.jsonl]()       |  |  |
+| dev3 qrels                                    | [dev3-qrels.txt]()   |  |  |
+| test queries                                  | coming soon!         |  |  |
 
 Note: In our train / dev1 / dev2 sets all queries come only from the movie domain while dev3 queries include a combination of movies, landmarks, and celebrities.
 The test queries for this year can be from any arbitrary domain.
