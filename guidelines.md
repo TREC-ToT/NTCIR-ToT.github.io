@@ -39,7 +39,7 @@ Runs will be evaluated using IR metrics that are appropriate for IR tasks with o
 This year’s track will have a larger corpus to account for the open domain setting.
 The format for the topics / documents have also been modified.
 The data is hosted in Zenodo and can be downloaded <a href="" target="_blank">here</a>.
-The corpus can also be accessed via <a href="https://huggingface.co/datasets" target="_blank">HuggingFace Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
+The corpus can also be accessed via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 | Description                                   | Link             | # entries| md5sum |
@@ -83,6 +83,23 @@ An example document is described below.
 }
 
 ```
+
+This year, the corpus is also available via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
+
+#### Access corpora through Hugging Face
+
+```python
+!pip install datasets
+
+from datasets import load_dataset
+
+ds = load_dataset("wikimedia/wikipedia", "20231101.en")
+print(ds['train'][134])
+```
+
+#### Access corpora through IR-Datasets
+
+Details coming soon.
 
 ### Queries
 
