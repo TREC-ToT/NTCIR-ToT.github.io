@@ -13,8 +13,8 @@ Welcome to the guidelines for the upcoming 2025 edition of the TREC ToT track!
 
 ## Important dates
 * **May (tentative):** Release corpus and training queries
-* **August (tentative):** Release test queries
-* **September (tentative):** Deadline for submitting runs
+* **June (tentative):** Release test queries
+* **August (tentative):** Deadline for submitting runs
 
 ## Registration
 
