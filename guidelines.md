@@ -98,6 +98,19 @@ The query format for this year has two fields: **query_id** and **query**. An ex
 
 ```
 
+### Use of external information
+
+You are generally **PERMITTED** to use external information while developing your runs. When you submit your runs, please fill in a form listing what resources you used.
+This could include an external corpus such as TMDB or a pretrained model (e.g. word embeddings, BERT). Additionally,
+
+Participating groups are **PROHIBITED** from using any data from the following websites that are not already included in the train/dev sets described above. **If you do so, you will be training and/or hyperparameter tuning using test data.**
+- <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a>
+- <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a>
+
+### Training data documentation and declaration
+ 
+The emerging practices of pretraining large language models on web-scale datasets and community sharing of these pretrained models for downstream training / model development creates challenges in tracking what training data have been used for particular run submissions. Given that some of our test queries are sampled from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> that has been publicly available online since 2021, there is a possibility that this data may have been used for training models that are employed in submitted runs. To ensure that we get robust scientific conclusions and insights from this year's track, we are requesting all participants to document *all* training data that were employed in the preparation of a given run to the best of your knowledge (including any data used for pretraining models that you are building on top of). In addition, we are also requesting participants to declare if they are 100% confident that no data from <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a> or <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a> was used for training. We recognize that not all pretrained models publicly document their training data in details. So, please mark that declaration to be true *only* if you are 100% confident about all training data used in preparation of your run and can guarantee that it does not include any data from the sources mentioned. We do not discourage submissions where there may be some uncertainty about the training data but we want to be aware of this at the time of analyzing the evaluated results.
+    
 ## Submission and evaluation
 
 **Submission form:** Coming soon! (You must <a href="#registration">register as a participant</a> to submit a run).
