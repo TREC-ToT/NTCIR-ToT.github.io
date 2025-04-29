@@ -88,9 +88,9 @@ This year, the corpus is also available via <a href="https://huggingface.co/data
 
 #### Access corpora through Hugging Face
 
-```python
-!pip install datasets
+Please install the Hugging Face datasets package using `pip install datasets`, and then run the following sample code.
 
+```python
 from datasets import load_dataset
 
 ds = load_dataset("wikimedia/wikipedia", "20231101.en")
