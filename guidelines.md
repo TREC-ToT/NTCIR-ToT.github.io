@@ -38,8 +38,8 @@ Runs will be evaluated using IR metrics that are appropriate for IR tasks with o
 ## Datasets
 This year’s track will have a larger corpus to account for the open domain setting.
 The format for the topics / documents have also been modified.
-The data is hosted in Zenodo and can be downloaded [here]().
-The corpus can also be accessed via [HuggingFace Datasets](https://huggingface.co/datasets) and [IR-Dataset](https://ir-datasets.com/).
+The data is hosted in Zenodo and can be downloaded <a href="" target="_blank">here</a>.
+The corpus can also be accessed via <a href="https://huggingface.co/datasets" target="_blank">HuggingFace Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 | Description                                   | Link             | # entries| md5sum |
