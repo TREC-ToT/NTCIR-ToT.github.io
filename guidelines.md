@@ -38,21 +38,22 @@ Runs will be evaluated using IR metrics that are appropriate for IR tasks with o
 ## Datasets
 This year’s track will have a larger corpus to account for the open domain setting.
 The format for the topics / documents have also been modified.
-The data is hosted in Zenodo and can be downloaded <a href="" target="_blank">here</a>.
-The corpus can also be accessed via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
+The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/15356599" target="_blank">here</a>.
+The corpus can also be accessed via <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a> and <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a>.
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 | Description                                   | Link             | # entries| md5sum |
 |-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [corpus.jsonl.zip]() |  |  |
-| train queries                                 | [train.jsonl]()      |  |  |
-| train qrels                                   | [train-qrels.txt]()  |  |  |
-| dev1 queries ('23 dev set)                    | [dev1.jsonl]()       |  |  |
-| dev1 qrels                                    | [dev1-qrels.txt]()   |  |  |
-| dev2 queries ('23 test set)                   | [dev2.jsonl]()       |  |  |
-| dev2 qrels                                    | [dev2-qrels.txt]()   |  |  |
-| dev3 queries ('24 test set)                   | [dev3.jsonl]()       |  |  |
-| dev3 qrels                                    | [dev3-qrels.txt]()   |  |  |
+| corpus (JSONL)                                | [trec-tot-2025-corpus.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-corpus.jsonl.gz) | 6407814 | a2c82398aa86df6a68c8706b9b462bf2 |
+| corpus offsets (JSONL)                                | [trec-tot-2025-offsets.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-offsets.jsonl.gz) | 6407814 | 00678e3155d962bb244e034e6401b79b |
+| train queries                                 | [train-2025-queries.jsonl](https://zenodo.org/records/15356599/files/train-2025-queries.jsonl)      | 143 | 288b7707b4e897f7447aac2cc2f613be |
+| train qrels                                   | [train-2025-qrel.txt](https://zenodo.org/records/15356599/files/train-2025-qrel.txt)  | 143 | 10a3c727fc5806ec4510f7a071b57cd7 |
+| dev1 queries ('23 dev set)                    | [dev1-2025-queries.jsonl](https://zenodo.org/records/15356599/files/dev1-2025-queries.jsonl)       | 142 | b87c2f51d058de844e258a69b02e70fc |
+| dev1 qrels                                    | [dev1-2025-qrel.txt](https://zenodo.org/records/15356599/files/dev1-2025-qrel.txt)   | 142 | 0c913ce8b5b287c73a6dfac662971e82 |
+| dev2 queries ('23 test set)                   | [dev2-2025-queries.jsonl](https://zenodo.org/records/15356599/files/dev2-2025-queries.jsonl)       | 143 | b174a128a255e92d0d54b76465d596b5 |
+| dev2 qrels                                    | [dev2-2025-qrel.txt](https://zenodo.org/records/15356599/files/dev2-2025-qrel.txt)   | 143 | 4548eb41e639905384aa017c69129bfc |
+| dev3 queries ('24 test set)                   | [dev3-2025-queries.jsonl](https://zenodo.org/records/15356599/files/dev3-2025-queries.jsonl)       | 536 | 259c11645694a3c5230b66c7852d4d80 |
+| dev3 qrels                                    | [dev3-2025-qrel.txt](https://zenodo.org/records/15356599/files/dev3-2025-qrel.txt)   | 536 | 48ab0d24a5946861546e54064238477f |
 | test queries                                  | coming soon!         |  |  |
 
 Note: In our train / dev1 / dev2 sets all queries come only from the movie domain while dev3 queries include a combination of movies, landmarks, and celebrities.
@@ -86,6 +87,29 @@ An example document is described below.
 
 This year, the corpus is also available via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
 
+### Baselines
+
+We have a set of baselines available implemented against ir_datasets: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench).
+
+Coming soon: We will make indices of our baselines publicly available so that you can easily modify the baselines for your own submission without having to process the corpus again.
+
+#### Access corpora through IR-Datasets
+
+Please install the ir_datasets datasets package `pip install git+https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025` (merge to main branch is still pending), and then run the following sample code.
+
+```python
+import ir_datasets
+dataset = ir_datasets.load("trec-tot/2025/train")
+
+for query in dataset.queries_iter():
+    print(query)
+    break
+
+for doc in dataset.docs_iter():
+    print(doc.doc_id)
+    break
+```
+
 #### Access corpora through Hugging Face
 
 Please install the Hugging Face datasets package using `pip install datasets`, and then run the following sample code.
@@ -96,10 +120,6 @@ from datasets import load_dataset
 ds = load_dataset("wikimedia/wikipedia", "20231101.en")
 print(ds['train'][134])
 ```
-
-#### Access corpora through IR-Datasets
-
-Details coming soon.
 
 ### Queries
 
