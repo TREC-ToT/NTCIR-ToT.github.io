@@ -7,9 +7,9 @@ layout: default
 
 # TREC 2024 Tip-of-the-Tongue (ToT) Track
 
-**Overview paper:** Coming soon!</br>
-**Overview presentation:** Coming soon!</br>
-**Track proceedings:** Coming soon!
+**Overview paper:** <a href="https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf" target="_blank">trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf</a></br>
+**Overview presentation:** <a href="https://docs.google.com/presentation/d/1hieEN2lJ27492TFI4fa6wkQ8DPlVlBtlS1PU90neAyk" target="_blank">https://docs.google.com/presentation/d/1hieEN2lJ27492TFI4...</a></br>
+**Track proceedings:** <a href="https://trec.nist.gov/pubs/trec33/xref.html#tot" target="_blank">trec.nist.gov/pubs/trec33/xref.html#tot</a>
 
 **Note:** You are viewing the guidelines for the 2024 edition of the TREC ToT track.
 Please see the <a href="guidelines">latest guidelines</a> for the upcoming / latest edition of the track.
