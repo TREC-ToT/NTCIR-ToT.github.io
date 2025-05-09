@@ -28,7 +28,7 @@ Any questions about conference participation should be sent to the general TREC 
 
 ## Task definition
 
-In terms of input and output, the ToT known-item identification task is relatively straightforward—given an input TOT request, output a ranked list of items.
+In terms of input and output, the ToT known-item identification task is relatively straightforward—given an input ToT request, output a ranked list of items.
 In previous years, our focus was on specific domains like movies, landmarks, and celebrities.
 This year, the retrieval task will be open domain.
 So, each item can be any entity and must be identified by its Wikipedia page id and the correct item should be ranked as high as possible.
@@ -39,13 +39,13 @@ Runs will be evaluated using IR metrics that are appropriate for IR tasks with o
 This year’s track will have a larger corpus to account for the open domain setting.
 The format for the topics / documents have also been modified.
 The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/15356599" target="_blank">here</a>.
-The corpus can also be accessed via <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a> and <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a>.
+The corpus can also be accessed via <a href="https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025" target="_blank">IR-Dataset</a> and <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a>.
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 | Description                                   | Link             | # entries| md5sum |
 |-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [trec-tot-2025-corpus.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-corpus.jsonl.gz) | 6407814 | a2c82398aa86df6a68c8706b9b462bf2 |
-| corpus offsets (JSONL)                                | [trec-tot-2025-offsets.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-offsets.jsonl.gz) | 6407814 | 00678e3155d962bb244e034e6401b79b |
+| corpus (JSONL)                                | [trec-tot-2025-corpus.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-corpus.jsonl.gz) | 6,407,814 | a2c82398aa86df6a68c8706b9b462bf2 |
+| corpus offsets (JSONL)                                | [trec-tot-2025-offsets.jsonl.gz](https://zenodo.org/records/15356599/files/trec-tot-2025-offsets.jsonl.gz) | 6,407,814 | 00678e3155d962bb244e034e6401b79b |
 | train queries                                 | [train-2025-queries.jsonl](https://zenodo.org/records/15356599/files/train-2025-queries.jsonl)      | 143 | 288b7707b4e897f7447aac2cc2f613be |
 | train qrels                                   | [train-2025-qrel.txt](https://zenodo.org/records/15356599/files/train-2025-qrel.txt)  | 143 | 10a3c727fc5806ec4510f7a071b57cd7 |
 | dev1 queries ('23 dev set)                    | [dev1-2025-queries.jsonl](https://zenodo.org/records/15356599/files/dev1-2025-queries.jsonl)       | 142 | b87c2f51d058de844e258a69b02e70fc |
@@ -85,7 +85,7 @@ An example document is described below.
 
 ```
 
-This year, the corpus is also available via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://ir-datasets.com/" target="_blank">IR-Dataset</a>.
+This year, the corpus is also available via <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a> and <a href="https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025" target="_blank">IR-Dataset</a>.
 
 #### Access corpora through IR-Datasets
 
@@ -140,13 +140,11 @@ Participating groups are **PROHIBITED** from using any data from the following w
 
 ### Training data documentation and declaration
  
-The emerging practices of pretraining large language models on web-scale datasets and community sharing of these pretrained models for downstream training / model development creates challenges in tracking what training data have been used for particular run submissions. Given that some of our test queries are sampled from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-TOT dataset</a> that has been publicly available online since 2021, there is a possibility that this data may have been used for training models that are employed in submitted runs. To ensure that we get robust scientific conclusions and insights from this year's track, we are requesting all participants to document *all* training data that were employed in the preparation of a given run to the best of your knowledge (including any data used for pretraining models that you are building on top of). In addition, we are also requesting participants to declare if they are 100% confident that no data from <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a> or <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a> was used for training. We recognize that not all pretrained models publicly document their training data in details. So, please mark that declaration to be true *only* if you are 100% confident about all training data used in preparation of your run and can guarantee that it does not include any data from the sources mentioned. We do not discourage submissions where there may be some uncertainty about the training data but we want to be aware of this at the time of analyzing the evaluated results.
+The emerging practices of pretraining large language models on web-scale datasets and community sharing of these pretrained models for downstream training / model development creates challenges in tracking what training data have been used for particular run submissions. Given that some of our test queries are sampled from the <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">MS-ToT dataset</a> that has been publicly available online since 2021, there is a possibility that this data may have been used for training models that are employed in submitted runs. To ensure that we get robust scientific conclusions and insights from this year's track, we are requesting all participants to document *all* training data that were employed in the preparation of a given run to the best of your knowledge (including any data used for pretraining models that you are building on top of). In addition, we are also requesting participants to declare if they are 100% confident that no data from <a href="https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification" target="_blank">https://github.com/microsoft/Tip-of-the-Tongue-Known-Item-Retrieval-Dataset-for-Movie-Identification</a> or <a href="https://irememberthismovie.com/" target="_blank">iRememberThisMovie.com</a> was used for training. We recognize that not all pretrained models publicly document their training data in details. So, please mark that declaration to be true *only* if you are 100% confident about all training data used in preparation of your run and can guarantee that it does not include any data from the sources mentioned. We do not discourage submissions where there may be some uncertainty about the training data but we want to be aware of this at the time of analyzing the evaluated results.
 
 ## Baselines
 
-We have a set of baselines available implemented against ir_datasets: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench).
-
-Coming soon: We will make indices of our baselines publicly available so that you can easily modify the baselines for your own submission without having to process the corpus again.
+Coming soon! We will have a set of baselines available implemented against ir_datasets here: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench). We will make indices of our baselines publicly available so that you can easily modify the baselines for your own submission without having to process the corpus again.
     
 ## Submission and evaluation
 
