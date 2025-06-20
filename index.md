@@ -118,7 +118,6 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
   </div>
   <div style="margin-left: 200px;">
     <b>Bhaskar Mitra</b>
-    <br/>Microsoft Research
     <br/>Montreal, Canada
     <p>
         <a href="https://www.microsoft.com/en-us/research/people/bmitra/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
