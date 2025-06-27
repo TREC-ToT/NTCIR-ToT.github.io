@@ -39,7 +39,7 @@ Runs will be evaluated using IR metrics that are appropriate for IR tasks with o
 This year’s track will have a larger corpus to account for the open domain setting.
 The format for the topics / documents have also been modified.
 The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/15356599" target="_blank">here</a>.
-The corpus can also be accessed via <a href="https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025" target="_blank">IR-Dataset</a> and <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a>.
+The corpus can also be accessed via <a href="[https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025](https://github.com/allenai/ir_datasets)" target="_blank">IR-Dataset</a> and <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Hugging Face Datasets</a>.
 See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 | Description                                   | Link             | # entries| md5sum |
@@ -89,7 +89,7 @@ This year, the corpus is also available via <a href="https://huggingface.co/data
 
 #### Access corpora through IR-Datasets
 
-Please install the ir_datasets datasets package `pip install git+https://github.com/mam10eks/ir_datasets/tree/trec-tot-2025` (merge to main branch is still pending), and then run the following sample code.
+Please install the ir_datasets datasets package `pip install ir_datasets`, and then run the following sample code.
 
 ```python
 import ir_datasets
