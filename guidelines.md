@@ -144,7 +144,9 @@ The emerging practices of pretraining large language models on web-scale dataset
 
 ## Baselines
 
-Coming soon! We will have a set of baselines available implemented against ir_datasets here: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench). We will make indices of our baselines publicly available so that you can easily modify the baselines for your own submission without having to process the corpus again.
+We have prepared a set of baselines implemented against ir_datasets here: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench).
+The run files are [publicly available](https://github.com/TREC-ToT/bench/tree/main/trec25) so that you can directly re-use them.
+The indices of our baselines are publicly available as well, so that you can easily modify the baselines for your own submission here: [https://github.com/TREC-ToT/bench/tree/main/trec25#prepared-indices](https://github.com/TREC-ToT/bench/tree/main/trec25#prepared-indices).
     
 ## Submission and evaluation
 
