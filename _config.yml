@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TREC 2023 Tip-of-the-Tongue (ToT) Track
-email: bmitra@microsoft.com
+title: TREC Tip-of-the-Tongue (ToT) Track
+email: bhaskar.mitra@acm.org
 description: >- # this means to ignore newlines until "baseurl:"
   Tip of the tongue: The phenomenon of failing to retrieve
   something from memory, combined with partial recall and
@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trec-tot.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UnderdogGeek
-github_username:  bmitra-msft
+github_username:  bhaskar-mitra
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0
