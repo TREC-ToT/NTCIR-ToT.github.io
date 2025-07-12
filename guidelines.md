@@ -13,7 +13,7 @@ Welcome to the guidelines for the upcoming 2025 edition of the TREC ToT track!
 
 ## Important dates
 * **May 9th:** Release corpus and training queries
-* **Early July (tentative):** Release test queries
+* **July 12th:** Release test queries
 * **August (tentative):** Deadline for submitting runs
 
 ## Registration
@@ -54,7 +54,7 @@ See [Corpora](#corpora) and [Queries](#queries) for a description of the files a
 | dev2 qrels                                    | [dev2-2025-qrel.txt](https://zenodo.org/records/15356599/files/dev2-2025-qrel.txt)   | 143 | 4548eb41e639905384aa017c69129bfc |
 | dev3 queries ('24 test set)                   | [dev3-2025-queries.jsonl](https://zenodo.org/records/15356599/files/dev3-2025-queries.jsonl)       | 536 | 259c11645694a3c5230b66c7852d4d80 |
 | dev3 qrels                                    | [dev3-2025-qrel.txt](https://zenodo.org/records/15356599/files/dev3-2025-qrel.txt)   | 536 | 48ab0d24a5946861546e54064238477f |
-| test queries                                  | coming soon!         |  |  |
+| test queries                                  | [test-2025-queries.jsonl](https://zenodo.org/records/15869078/files/test-2025-queries.jsonl)         | 622 | 374cdc9142240f8bc9e4b071c35713f8 |
 
 Note: In our train / dev1 / dev2 sets all queries come only from the movie domain while dev3 queries include a combination of movies, landmarks, and celebrities.
 The test queries for this year can be from any arbitrary domain.
@@ -147,7 +147,10 @@ The emerging practices of pretraining large language models on web-scale dataset
 We have prepared a set of baselines implemented against ir_datasets here: [https://github.com/TREC-ToT/bench](https://github.com/TREC-ToT/bench).
 The run files are [publicly available](https://github.com/TREC-ToT/bench/tree/main/trec25) so that you can directly re-use them.
 The indices of our baselines are publicly available as well, so that you can easily modify the baselines for your own submission here: [https://github.com/TREC-ToT/bench/tree/main/trec25#prepared-indices](https://github.com/TREC-ToT/bench/tree/main/trec25#prepared-indices).
-    
+
+An evaluation of the baselines on all training and dev splits is available in the [Github repository](https://github.com/TREC-ToT/bench/tree/main/trec25).
+
+
 ## Submission and evaluation
 
 **Submission form:** Coming soon! (You must <a href="#registration">register as a participant</a> to submit a run).
