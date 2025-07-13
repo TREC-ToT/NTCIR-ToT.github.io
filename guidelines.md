@@ -156,7 +156,7 @@ We also provide the baseline run files for this year's test dataset below.
 | ir_dataset          |  Baseline                                                        | Runfiles | NDCG@10 | NDCG@1000 | R@1000  |
 |---------------------|------------------------------------------------------------------|----------|-----------------|-------|----|
 | trec-tot/2025/train | [BM25 (Anserini)](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval)                | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval/runs/train) | 0.022  | 0.055 | 0.280 |
-| trec-tot/2025/train | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/train)| 0.065 | 0.115 | 0.455 | 
+| trec-tot/2025/train | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/bm25/train)| 0.065 | 0.115 | 0.455 | 
 | trec-tot/2025/train | [Dense Retrieval](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval) | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval/runs/train) | 0.318 | 0.373 | 0.755 |
 
 
@@ -165,7 +165,7 @@ We also provide the baseline run files for this year's test dataset below.
 | ir_dataset          |  Baseline                                                        | Runfiles | NDCG@10 | NDCG@1000 | R@1000  |
 |---------------------|------------------------------------------------------------------|----------|-----------------|-------|----|
 | trec-tot/2025/dev1 | [BM25 (Anserini)](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval)                | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval/runs/dev1) | 0.031 | 0.058 | 0.218 |
-| trec-tot/2025/dev1 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/dev1)| 0.084 | 0.134 | 0.451 | 
+| trec-tot/2025/dev1 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/bm25/dev1)| 0.084 | 0.134 | 0.451 | 
 | trec-tot/2025/dev1 | [Dense Retrieval](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval) | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval/runs/dev1) | 0.324 | 0.381 | 0.761 |
 
 
@@ -174,7 +174,7 @@ We also provide the baseline run files for this year's test dataset below.
 | ir_dataset          |  Baseline                                                        | Runfiles | NDCG@10 | NDCG@1000 | R@1000  |
 |---------------------|------------------------------------------------------------------|----------|-----------------|-------|----|
 | trec-tot/2025/dev2 | [BM25 (Anserini)](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval)                | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval/runs/dev2) | 0.043 | 0.072 | 0.252 |
-| trec-tot/2025/dev2 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/dev2)| 0.099 | 0.143 | 0.455 | 
+| trec-tot/2025/dev2 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/bm25/dev2)| 0.099 | 0.143 | 0.455 | 
 | trec-tot/2025/dev2 | [Dense Retrieval](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval) | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval/runs/dev2) | 0.020 | 0.050 | 0.245 |
 
 
@@ -183,7 +183,7 @@ We also provide the baseline run files for this year's test dataset below.
 | ir_dataset          |  Baseline                                                        | Runfiles | NDCG@10 | NDCG@1000 | R@1000  |
 |---------------------|------------------------------------------------------------------|----------|-----------------|-------|----|
 | trec-tot/2025/dev3 | [BM25 (Anserini)](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval)                | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval/runs/dev3) | 0.092 | 0.143 | 0.470 |
-| trec-tot/2025/dev3 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/dev3)| 0.337 | 0.392 | 0.771 | 
+| trec-tot/2025/dev3 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/bm25/dev3)| 0.337 | 0.392 | 0.771 | 
 | trec-tot/2025/dev3 | [Dense Retrieval](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval) | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval/runs/dev3) | 0.014 | 0.035 | 0.174 | 
 
 
@@ -192,7 +192,7 @@ We also provide the baseline run files for this year's test dataset below.
 | ir_dataset          |  Baseline                                                        | Runfiles |
 |---------------------|------------------------------------------------------------------|----------|
 | trec-tot/2025/dev3 | [BM25 (Anserini)](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval)                | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/anserini-bm25-retrieval/runs/test) |
-| trec-tot/2025/dev3 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/test)|
+| trec-tot/2025/dev3 | [BM25 (PyTerrier)](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval)              | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/pyterrier-bm25-retrieval/runs/bm25/test)|
 | trec-tot/2025/dev3 | [Dense Retrieval](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval) | [runs](https://github.com/TREC-ToT/bench/tree/main/trec25/lightning-dense-retrieval/runs/test) |
 
 
