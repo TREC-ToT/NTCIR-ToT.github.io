@@ -198,7 +198,7 @@ We also provide the baseline run files for this year's test dataset below.
 
 ## Submission and evaluation
 
-**Submission form:** Coming soon! (You must <a href="#registration">register as a participant</a> to submit a run).
+**Submission form:** <a href="https://ir.nist.gov/evalbase/conf/trec-2025/trec2025-tot-main/submit" target="_blank">https://ir.nist.gov/evalbase/conf/trec-2025/trec2025-tot-main/submit</a> (You must <a href="#registration">register as a participant</a> to submit a run).
 
 We will be following a similar format as the ones used by most TREC submissions, which is repeated below. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
 
@@ -222,4 +222,3 @@ We will be following a similar format as the ones used by most TREC submissions,
 The main type of TREC submission is *automatic*, which means there was not manual intervention in running the test queries. This means you should not adjust your runs, rewrite the query, retrain your model, or make any other sorts of manual adjustments after you see the test queries. The ideal case is that you only look at the test queries to check that they ran properly (i.e. no bugs) then you submit your automatic runs. However, if you want to have a human in the loop for your run, or do anything else that uses the test queries to adjust your model or ranking, you can mark your run as *manual*. Manual runs are interesting, and we may learn a lot, but these are distinct from our main scenario which is a system that responds to unseen queries automatically.
 
 Runs will be evaluated using metrics appropriate for retrieval scenarios with one relevant document. In particular, **our primary evaluation metric for this year's track will be discounted cumulative gain (DCG)** but we may also compute other metrics such as reciprocal rank (RR) and success@k.
-
